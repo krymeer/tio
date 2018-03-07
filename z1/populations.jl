@@ -14,7 +14,7 @@ function populationsize(n::Int64)
   elseif n == 4 || n == 5
     return div(factorial(n-1), 2)
   else
-    return n * 3
+    return n*3
   end
 end
 
