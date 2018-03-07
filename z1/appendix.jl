@@ -29,6 +29,23 @@ function printbestlocalroute(routes::Array{Array{Int64,1},1}, towns::Array{Town,
   println(bestroute, "\t", bestcost)
 end
 
+# Wyswietlanie najgorszej znalezionej trasy
+function printworstlocalroute(routes::Array{Array{Int64,1},1}, towns::Array{Town,1})
+  worstroute  = routes[1] 
+  worstcost   = getcost(routes[1], towns, false)
+
+  for k = 2 : length(routes)
+    cost = getcost(routes[k], towns, false)
+
+    if cost > worstcost
+      worstroute  = routes[k]
+      worstcost   = cost
+    end
+  end
+
+  println(worstroute, "\t", worstcost)
+end
+
 # Sprawdzenie czasu wykonywania algorytmu
 function endoftime(starttime::Float64)
   timenow = time()

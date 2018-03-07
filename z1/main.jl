@@ -24,15 +24,13 @@ function main()
       dataerr = true
     end
 
-    if crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
+    if dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
       println(STDERR, errormsg)
-      dataerr = true
     else
       townnum, towndata, dataerr = readdata(ARGS[1])
 
-      if townnum < 3
-        println(STDERR, "\nBłąd: zbyt mala liczba miast (", townnum, ")")
-        println(STDERR, errormsg)
+      if !dataerr && townnum < 3
+        println(STDERR, "\nBłąd: zbyt mala liczba miast (", townnum, ")\n", errormsg)
         dataerr = true
       end
 

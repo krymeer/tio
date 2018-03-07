@@ -1,11 +1,21 @@
 # Rozmiar populacji rozwiazan problemu komiwojazera
 # na podstawie: http://lipas.uwasa.fi/cs/publications/2NWGA/node11.html
-function populationsize(n)
+function populationsizeold(n::Int64)
   if n < 5
     return div(factorial(n-1), 2)
   end
 
   return Int64(round(log(10, 1 - (0.99 ^ (1/n))) / log(10, (n-3) / (n-1))))
+end
+
+function populationsize(n::Int64)
+  if n < 4
+    return 1
+  elseif n == 4 || n == 5
+    return div(factorial(n-1), 2)
+  else
+    return n * 3
+  end
 end
 
 # Sprawdzenie, czy dane rozwiazanie zostalo juz wybrane
@@ -33,8 +43,8 @@ end
 
 # Sprawdzenie, czy rozwiazanie spelnia zalozenia problemu komiwojazera
 function goodroute(route::Array{Int64,1})
-  for k = 2 : length(route)
-    if route[k] == route[k-1]
+  for k = 2 : length(route)-1
+    if findprev(route, route[k], k-1) > 0
       return false
     end
   end

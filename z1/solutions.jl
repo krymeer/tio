@@ -8,8 +8,11 @@ function findsolution(n::Int64, towndata::Array{Town,1}, crossprob::Float64, mut
   bestroute = Int64[]
   bestcost  = typemax(Int64)
 
-  println("\nPopulacja poczatkowa:")
-  printroutes(routes, towndata)
+  #println("\nPopulacja poczatkowa:")
+  #printroutes(routes, towndata)
+
+  println("\nNajgorsze rozwiazanie z pierwszej populacji:")
+  printworstlocalroute(routes, towndata)
 
   while true
     costarr, bestcostindex  = getallcosts(routes, towndata)
@@ -44,10 +47,10 @@ function findsolution(n::Int64, towndata::Array{Town,1}, crossprob::Float64, mut
     g += 1
   end
 
-  if psize > 1
+  #=if psize > 1
     println("\nPopulacja koncowa:")
     printroutes(routes, towndata)
-  end
+  end=#
 
   println("\nNajlepsze rozwiazanie z ostatniej populacji:")
   printbestlocalroute(routes, towndata)
