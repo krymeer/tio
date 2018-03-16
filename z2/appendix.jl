@@ -5,7 +5,8 @@ function swap(arr::Array, i::Int64, j::Int64)
   arr[j] = tmp
 end
 
-# Sprawdzenie czasu wykonywania algorytmu
+# Sprawdzenie czasu wykonywania algorytmu.
+# Szukanie roziazania problemu trwa co najwyzej 20 min
 function endoftime(starttime::Float64)
   timenow = time()
   timeint = round(timenow - starttime)
@@ -40,4 +41,10 @@ function negate(chromosome::String, k::Int64)
   end
 
   return chromosome[1:k-1] * newbit * chromosome[k+1:length(chromosome)]
+end
+
+# Ustalenie rozmiaru populacji. Wedlug jednego ze zrodel:
+# "Further increase of the population size, does not improve the solution accuracy"
+function setpopulationsize(n::Int64)
+  return 50 + Int64(floor(n / 10)) 
 end

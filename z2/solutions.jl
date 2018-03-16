@@ -1,29 +1,30 @@
-# Znajdowanie rozwiazania problemu komiwojazera
+# Znajdowanie rozwiazania problemu plecakowego
 function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float64, mutprob::Float64, selectiontype::String)
   starttime       = time()
   n               = length(itemarr)
+  populationsize  = setpopulationsize(n)
   g               = 1
-  gmax            = 100
-  populationsize  = 2^(n-1)
+  gmax            = 2 * n^2
   knapsacks       = initialise(n, populationsize)
-
+  ratearray       = Int64[]
+  bvarray         = Int64[]
+  wvarray         = Int64[]
+  avarray         = Float64[]
+  
   while true
     ratearray = computefitness(maxweight, knapsacks, itemarr)
+    push!(avarray, mean(ratearray))
+    push!(bvarray, maximum(ratearray))
+    push!(wvarray, minimum(filter(x -> x != 0, ratearray)))
 
     if g > gmax || endoftime(starttime)
       break
     end
 
-    println("INITIAL POPULATION")
-    printpopulation(knapsacks, itemarr)
-
     if selectiontype == "r"
       circle = makecirle(ratearray)
       knapsacks = newpopulation(knapsacks, circle)
     end
-
-    println("\nNEW GENERATION")
-    printpopulation(knapsacks, itemarr)
 
     if crossprob > 0
       randarr = shuffle(collect(1:populationsize))
@@ -40,8 +41,6 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
 
         i += 2
       end
-      println("\nAFTER CROSSING")
-      printpopulation(knapsacks, itemarr)
     end
 
     if mutprob > 0
@@ -50,19 +49,18 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
       end
     end
 
-    println("\nAFTER MUTATION")
-    printpopulation(knapsacks, itemarr)
-
-    #==== START OF TMP COND ====#
-    
-    if g == 1
-      #break
-    end
-
-    #===== END OF TMP COND =====#
-
     g += 1
   end
 
-  println()
+  bvtuple       = findmax(ratearray)
+  bvindex       = bvtuple[2]
+  bestvalue     = bvtuple[1]
+  bestknapsack  = knapsacks[bvindex]
+  bestitems     = getitems(bestknapsack)
+
+  createchart(bvarray, wvarray, avarray)
+
+  println(STDERR, "\nNajlepsze rozwiazanie:\n", getitems(bestknapsack), " (", bestknapsack, ")")
+  println(STDERR, "\nOcena najlepszego rozwiazania:\n", bestvalue)
+  println(STDERR, "\nLiczba wygenerowanych populacji:\n", g, "\n")
 end

@@ -4,6 +4,7 @@ include("knapsack.jl")
 include("solutions.jl")
 include("appendix.jl")
 include("startup.jl")
+include("output.jl")
 
 # Funkcja startowa programu
 function main()
@@ -28,7 +29,7 @@ function main()
     else
       maxweight, itemarr, dataerr = readdata(ARGS[1])
 
-      if !dataerr && length(itemarr) > 0
+      if !dataerr && length(itemarr) > 0 && maxweight > 0
         findsolution(maxweight, itemarr, crossprob, mutprob, "r")
       end
     end
