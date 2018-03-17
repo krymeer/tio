@@ -13,9 +13,17 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
   
   while true
     ratearray = computefitness(maxweight, knapsacks, itemarr)
-    push!(avarray, mean(ratearray))
+    nozeros   = filter(x -> x != 0, ratearray) 
+
     push!(bvarray, maximum(ratearray))
-    push!(wvarray, minimum(filter(x -> x != 0, ratearray)))
+
+    if length(nozeros) > 0
+      push!(wvarray, minimum(nozeros))
+      push!(avarray, mean(nozeros))
+    else
+      push!(wvarray, 0)
+      push!(avarray, 0)
+    end
 
     if g > gmax || endoftime(starttime)
       break
@@ -58,7 +66,7 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
   bestknapsack  = knapsacks[bvindex]
   bestitems     = getitems(bestknapsack)
 
-  createchart(bvarray, wvarray, avarray)
+  createchart(bvarray, wvarray, avarray, crossprob, mutprob)
 
   println(STDERR, "\nNajlepsze rozwiazanie:\n", getitems(bestknapsack), " (", bestknapsack, ")")
   println(STDERR, "\nOcena najlepszego rozwiazania:\n", bestvalue)
