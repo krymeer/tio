@@ -1,7 +1,13 @@
 # Prawdopodobienstwo wyboru danego rozwiazania, tj. stosunek oceny
 # przystosowania danego rozwiazania do sumy ocen wszystkich osobnikow populacji
-function selectingprobability(rate::Int64, ratesum::Int64)
-  return rate/ratesum * 100.0
+function selectingprobability(rate::Int64, ratesum::Int64, aspercentage::Bool=false)
+  quotient = rate/ratesum
+
+  if aspercentage
+    quotient *= 100.0
+  end
+
+  return quotient
 end
 
 # Wybor rozwiazania, na ktore wskazuje wylosowana liczba (zgodnie ze zdefiniowanym kolem ruletki)
@@ -33,7 +39,7 @@ function makecirle(ratearray::Array{Int64,1})
     y = x
 
     if ratesum > 0
-      y += selectingprobability(ratearray[k], ratesum)  
+      y += selectingprobability(ratearray[k], ratesum, true)  
     else
       y += frac
     end

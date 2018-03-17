@@ -1,9 +1,10 @@
+include("startup.jl")
 include("modifications.jl")
 include("roulette.jl")
 include("knapsack.jl")
 include("solutions.jl")
 include("appendix.jl")
-include("startup.jl")
+include("otherselections.jl")
 include("output.jl")
 
 # TODO
@@ -14,7 +15,7 @@ include("output.jl")
 function main()
   dataerr = false
 
-  if length(ARGS) != 4
+  if length(ARGS) != 5
     println(STDERR, errormsg)
   else
     crossprob = 0.0
@@ -29,14 +30,15 @@ function main()
     end
 
     muttype = lowercase(ARGS[4])
+    seltype = lowercase(ARGS[5])
 
-    if (muttype != "i" && muttype != "z") || dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
+    if (seltype != "sr" && seltype != "sk") || (muttype != "mi" && muttype != "mz") || dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
       println(STDERR, errormsg)
     else
       maxweight, itemarr, dataerr = readdata(ARGS[1])
 
       if !dataerr && length(itemarr) > 0 && maxweight > 0
-        findsolution(maxweight, itemarr, crossprob, mutprob, muttype, "r")
+        findsolution(maxweight, itemarr, crossprob, mutprob, muttype, seltype)
       end
     end
   end

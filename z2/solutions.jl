@@ -29,9 +29,12 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
       break
     end
 
-    if selectiontype == "r"
+    if selectiontype == "sk"
       circle = makecirle(ratearray)
       knapsacks = newpopulation(knapsacks, circle)
+    elseif selectiontype == "sr"
+      rankarray = createranking(ratearray)
+      knapsacks = newpopulation(knapsacks, rankarray)
     end
 
     if crossprob > 0
@@ -53,7 +56,7 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
 
     if mutprob > 0
       for k = 1 : populationsize
-        if muttype == "z"
+        if muttype == "mz"
           knapsacks[k] = mutate(knapsacks[k], mutprob)
         else
           knapsacks[k] = invert(knapsacks[k], mutprob)
@@ -70,7 +73,7 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
   bestknapsack  = knapsacks[bvindex]
   bestitems     = getitems(bestknapsack)
 
-  createchart(bvarray, wvarray, avarray, crossprob, mutprob, muttype)
+  createchart(bvarray, wvarray, avarray, crossprob, mutprob, muttype, selectiontype)
 
   println(STDERR, "\nNajlepsze rozwiazanie:\n", getitems(bestknapsack), " (", bestknapsack, ")")
   println(STDERR, "\nOcena najlepszego rozwiazania:\n", bestvalue)

@@ -53,6 +53,21 @@ function newpopulation(knapsacks::Array{String,1}, circle::Array{Tuple{Float64,F
   return newknapsacks
 end
 
+# Generowanie populacji potomnej. Wybor osobnikow do reprodukcji jest zalezny od rankingu
+# okreslajacego, ile kopii danego rozwiazania powinno pojawic sie w nowej populacji
+function newpopulation(knapsacks::Array{String,1}, ranking::Array{Tuple{Int64,Int64},1})
+  newknapsacks = String[]
+
+  for i = 1 : length(knapsacks)
+    for j = 1 : ranking[i][1]
+      index = ranking[i][2]
+      push!(newknapsacks, knapsacks[index])
+    end
+  end
+
+  return newknapsacks
+end
+
 # Wyznaczanie wartosci funkcji dopasowania dla poszczegolnych rozwiazan problemu.
 # Za najlepsze uwazane sa ciagi binarne reprezentujace ciagi przedmiotow o najwiekszej wartosci
 # (i wadze nieprzekraczajacej maksymalna nosnosc plecaka)
