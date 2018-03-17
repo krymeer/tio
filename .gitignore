@@ -1,3 +1,5 @@
 *.pdf
-out_*.txt
 data_*.txt
+out_*.txt
+out_*.svg
+out_*.png
