@@ -15,6 +15,26 @@ function mutate(chromosome::String, mutprob::Float64)
   return newchromosome
 end
 
+# Mutacja rozwiazania na zasadzie inwersji: losowane sa dwie
+# liczby naturalne a, b (a < b) bedace poczatkiem i koncem
+# pewnego podciagu w tablicy (wektorze), ktory zostaje odwrocony
+function invert(chromosome::String, mutprob::Float64)
+  if rand() < mutprob
+    n = length(chromosome)
+    a = 0
+    b = 0
+
+    while a >= b
+      a = rand(1:n)
+      b = rand(1:n)
+    end
+
+    return (chromosome[1:a-1] * chromosome[a:b] * chromosome[b+1:n])
+  else
+    return chromosome
+  end
+end
+
 # Krzyzowanie dwoch rozwiazan.
 # Wybierany jest losowy punkt, wzgledem ktorego nastepuje wymiana "genow"
 function cross(parentleft::String, parentright::String, crossprob::Float64)

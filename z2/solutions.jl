@@ -1,5 +1,5 @@
 # Znajdowanie rozwiazania problemu plecakowego
-function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float64, mutprob::Float64, selectiontype::String)
+function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float64, mutprob::Float64, muttype::String, selectiontype::String)
   starttime       = time()
   n               = length(itemarr)
   populationsize  = setpopulationsize(n)
@@ -53,7 +53,11 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
 
     if mutprob > 0
       for k = 1 : populationsize
-        knapsacks[k] = mutate(knapsacks[k], mutprob)
+        if muttype == "z"
+          knapsacks[k] = mutate(knapsacks[k], mutprob)
+        else
+          knapsacks[k] = invert(knapsacks[k], mutprob)
+        end
       end
     end
 
@@ -66,7 +70,7 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
   bestknapsack  = knapsacks[bvindex]
   bestitems     = getitems(bestknapsack)
 
-  createchart(bvarray, wvarray, avarray, crossprob, mutprob)
+  createchart(bvarray, wvarray, avarray, crossprob, mutprob, muttype)
 
   println(STDERR, "\nNajlepsze rozwiazanie:\n", getitems(bestknapsack), " (", bestknapsack, ")")
   println(STDERR, "\nOcena najlepszego rozwiazania:\n", bestvalue)
