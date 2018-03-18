@@ -35,6 +35,8 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
     elseif selectiontype == "sr"
       rankarray = createranking(ratearray)
       knapsacks = newpopulation(knapsacks, rankarray)
+    elseif selectiontype == "st"
+      knapsacks = newtournamentpopulation(knapsacks, ratearray)
     end
 
     if crossprob > 0

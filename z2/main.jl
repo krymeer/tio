@@ -28,7 +28,7 @@ function main()
     muttype = lowercase(ARGS[4])
     seltype = lowercase(ARGS[5])
 
-    if (seltype != "sr" && seltype != "sk") || (muttype != "mi" && muttype != "mz") || dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
+    if (seltype != "sr" && seltype != "sk" && seltype != "st") || (muttype != "mi" && muttype != "mz") || dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
       println(STDERR, errormsg)
     else
       maxweight, itemarr, dataerr = readdata(ARGS[1])

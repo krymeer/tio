@@ -68,6 +68,37 @@ function newpopulation(knapsacks::Array{String,1}, ranking::Array{Tuple{Int64,In
   return newknapsacks
 end
 
+function newtournamentpopulation(knapsacks::Array{String,1}, ratearray::Array{Int64,1})
+  newknapsacks  = String[]
+  arrlength     = length(ratearray)
+
+  for k = 1 : arrlength
+    a = 0
+    b = 0
+    c = 0
+
+    while a == b || b == c || a == c
+      a = rand(1:arrlength)
+      b = rand(1:arrlength)
+      c = rand(1:arrlength)
+    end
+
+    maxval = 0
+    maxind = 0
+
+    for i in [a, b, c]
+      if ratearray[i] >= maxval
+        maxind = i
+        maxval = ratearray[i]
+      end
+    end
+
+    push!(newknapsacks, knapsacks[maxind])
+  end
+  
+  return newknapsacks
+end
+
 # Wyznaczanie wartosci funkcji dopasowania dla poszczegolnych rozwiazan problemu.
 # Za najlepsze uwazane sa ciagi binarne reprezentujace ciagi przedmiotow o najwiekszej wartosci
 # (i wadze nieprzekraczajacej maksymalna nosnosc plecaka)

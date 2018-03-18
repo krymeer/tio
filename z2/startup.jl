@@ -1,4 +1,4 @@
-errormsg = "\nUzycie:\n\tz1.jl dw pk pm tm ts\n\nGdzie:\n\t- dw ‒ dane wejsciowe, tj. zbior przedmiotow i nosnosc plecaka,\n\t- pk ‒ prawdopodobienstwo krzyzowania [0, 1],\n\t- pm ‒ prawdopodobienstwo mutacji [0, 1],\n\t- tm ‒ typ mutacji:\n\t\t-- mi ‒ inwersja,\n\t\t-- mz ‒ zwykła.\n\t- ts ‒ typ selekcji:\n\t\t-- sk ‒ koła ruletki,\n\t\t-- sr ‒ rankingowa.\n"
+errormsg = "\nUzycie:\n\tz1.jl dw pk pm tm ts\n\nGdzie:\n\t- dw ‒ dane wejsciowe, tj. zbior przedmiotow i nosnosc plecaka,\n\t- pk ‒ prawdopodobienstwo krzyzowania [0, 1],\n\t- pm ‒ prawdopodobienstwo mutacji [0, 1],\n\t- tm ‒ typ mutacji:\n\t\t-- mi ‒ inwersja,\n\t\t-- mz ‒ zwykła.\n\t- ts ‒ typ selekcji:\n\t\t-- sk ‒ koła ruletki,\n\t\t-- sr ‒ rankingowa,\n\t\t-- st ‒ turniejowa.\n"
 
 # Przetwarzanie danych zawartych w pliku
 function readdata(filename::String)
