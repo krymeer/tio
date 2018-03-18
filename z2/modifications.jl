@@ -37,16 +37,37 @@ end
 
 # Krzyzowanie dwoch rozwiazan.
 # Wybierany jest losowy punkt, wzgledem ktorego nastepuje wymiana "genow"
-function cross(parentleft::String, parentright::String, crossprob::Float64)
-  childleft   = ""
-  childright  = ""
+function cross(parents::Array{String,1}, crosstype::String, crossprob::Float64)
+  children = ["", ""]
 
   if rand() < crossprob
-    len         = length(parentleft)
-    i           = rand(2:len-1)
-    childleft   = parentleft[1:i-1] * parentright[i:len]
-    childright  = parentright[1:i-1] * parentleft[i:len]
+    len         = length(parents[1])
+
+    if crosstype == "kj"
+      # Krzyzowanie jednopunktowe
+      i           = rand(2:len-1)
+      children[1] = parents[1][1:i-1] * parents[2][i:len]
+      children[2] = parents[2][1:i-1] * parents[1][i:len]
+    elseif crosstype == "kr"
+      # Krzyzowanie rownomierne. Tworzenie kazdego potomka jest realizowane poprzez
+      # losowy wybor takiej samej liczby genow (lub roznej o 1) od obydwu rodzicow
+      for k = 1 : 2
+        l       = 0
+        ctr     = [0, 0]
+        halflen = [floor(len/2), len-floor(len/2)]
+
+        while l != len 
+          r = rand(1:2)
+
+          if ctr[r] < halflen[r]
+            l += 1
+            ctr[r] += 1
+            children[k] *= parents[r][l:l]
+          end
+        end
+      end
+    end
   end
 
-  return childleft, childright
+  return children
 end

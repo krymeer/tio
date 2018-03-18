@@ -11,7 +11,7 @@ include("output.jl")
 function main()
   dataerr = false
 
-  if length(ARGS) != 5
+  if length(ARGS) != 6
     println(STDERR, errormsg)
   else
     crossprob = 0.0
@@ -19,22 +19,23 @@ function main()
 
     try
       crossprob = parse(Float64, ARGS[2])
-      mutprob = parse(Float64, ARGS[3])
+      mutprob = parse(Float64, ARGS[4])
     catch
       println(STDERR, errormsg)
       dataerr = true
     end
 
-    muttype = lowercase(ARGS[4])
-    seltype = lowercase(ARGS[5])
+    crosstype = lowercase(ARGS[3])
+    muttype   = lowercase(ARGS[5])
+    seltype   = lowercase(ARGS[6])
 
-    if (seltype != "sr" && seltype != "sk" && seltype != "st") || (muttype != "mi" && muttype != "mz") || dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
+    if (seltype != "sr" && seltype != "sk" && seltype != "st") || (muttype != "mi" && muttype != "mz") || (crosstype != "kj" && crosstype != "kr") || dataerr || crossprob < 0.0 || crossprob > 1.0 || mutprob < 0.0 || mutprob > 1.0
       println(STDERR, errormsg)
     else
       maxweight, itemarr, dataerr = readdata(ARGS[1])
 
       if !dataerr && length(itemarr) > 0 && maxweight > 0
-        findsolution(maxweight, itemarr, crossprob, mutprob, muttype, seltype)
+        findsolution(maxweight, itemarr, crossprob, crosstype, mutprob, muttype, seltype)
       end
     end
   end

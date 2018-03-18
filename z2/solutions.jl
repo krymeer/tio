@@ -1,5 +1,5 @@
 # Znajdowanie rozwiazania problemu plecakowego
-function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float64, mutprob::Float64, muttype::String, selectiontype::String)
+function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float64, crosstype::String, mutprob::Float64, muttype::String, selectiontype::String)
   starttime       = time()
   n               = length(itemarr)
   populationsize  = setpopulationsize(n)
@@ -45,11 +45,11 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
       imax    = ceil(populationsize/2)
 
       while i < imax
-        childleft, childright = cross(knapsacks[randarr[i]], knapsacks[randarr[i+1]], crossprob)
+        children = cross([knapsacks[randarr[i]], knapsacks[randarr[i+1]]], crosstype, crossprob)
 
-        if childleft != "" && childright != ""
-          knapsacks[randarr[i]]   = childleft
-          knapsacks[randarr[i+1]] = childright
+        if children[1] != "" && children[2] != ""
+          knapsacks[randarr[i]]   = children[1]
+          knapsacks[randarr[i+1]] = children[2]
         end
 
         i += 2
@@ -75,7 +75,7 @@ function findsolution(maxweight::Int64, itemarr::Array{Item,1}, crossprob::Float
   bestknapsack  = knapsacks[bvindex]
   bestitems     = getitems(bestknapsack)
 
-  createchart(bvarray, wvarray, avarray, crossprob, mutprob, muttype, selectiontype)
+  createchart(bvarray, wvarray, avarray, crossprob, crosstype, mutprob, muttype, selectiontype)
 
   println(STDERR, "\nNajlepsze rozwiazanie:\n", getitems(bestknapsack), " (", bestknapsack, ")")
   println(STDERR, "\nOcena najlepszego rozwiazania:\n", bestvalue)
