@@ -7,10 +7,6 @@ include("appendix.jl")
 include("otherselections.jl")
 include("output.jl")
 
-# TODO
-# Załącz output.jl wtedy i tylko wtedy,
-# kiedy jest NAPRAWDĘ potrzebny!
-
 # Funkcja startowa programu
 function main()
   dataerr = false
