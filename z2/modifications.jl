@@ -72,6 +72,18 @@ function cross(parents::Array{String,1}, crosstype::String, crossprob::Float64)
           end
         end
       end
+    elseif crosstype == "kd"
+      # Krzyzowanie dwupunktowe
+      a = 0
+      b = 0
+
+      while a >= b
+        a = rand(1:len)
+        b = rand(1:len)
+      end
+
+      children[1] = parents[1][1:a-1] * parents[2][a:b] * parents[1][b+1:len]
+      children[2] = parents[2][1:a-1] * parents[1][a:b] * parents[2][b+1:len]
     end
   end
 
