@@ -68,6 +68,8 @@ function newpopulation(knapsacks::Array{String,1}, ranking::Array{Tuple{Int64,In
   return newknapsacks
 end
 
+# Selekcja turniejowa. Z populacja losowane sa (ze zwracaniem) trzy osobniki,
+# z ktorych do dalszej reprodukcji wybierany jest ten najlepszy (zwyciezca turnieju)
 function newtournamentpopulation(knapsacks::Array{String,1}, ratearray::Array{Int64,1})
   newknapsacks  = String[]
   arrlength     = length(ratearray)

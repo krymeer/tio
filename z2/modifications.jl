@@ -15,6 +15,12 @@ function mutate(chromosome::String, mutprob::Float64)
   return newchromosome
 end
 
+#=================== TODO ==================#
+#                                           #
+# wygenerowac ponownie wykresy dla inwersji #
+#                                           #
+#===========================================#
+
 # Mutacja rozwiazania na zasadzie inwersji: losowane sa dwie
 # liczby naturalne a, b (a < b) bedace poczatkiem i koncem
 # pewnego podciagu w tablicy (wektorze), ktory zostaje odwrocony
@@ -29,7 +35,7 @@ function invert(chromosome::String, mutprob::Float64)
       b = rand(1:n)
     end
 
-    return (chromosome[1:a-1] * chromosome[a:b] * chromosome[b+1:n])
+    return (chromosome[1:a-1] * chromosome[b:a] * chromosome[b+1:n])
   else
     return chromosome
   end
