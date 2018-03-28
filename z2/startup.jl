@@ -1,4 +1,4 @@
-errormsg = "\nUzycie:\n\tz1.jl dw pk tk pm tm ts\n\nGdzie:\n\t- dw ‒ dane wejsciowe, tj. zbior przedmiotow i nosnosc plecaka,\n\t- pk ‒ prawdopodobienstwo krzyzowania [0, 1],\n\t- tk ‒ typ krzyzowania:\n\t\t-- kj ‒ jednopunktowe,\n\t\t-- kd ‒ dwupunktowe,\n\t\t-- kr ‒ rownomierne,\n\t- pm ‒ prawdopodobienstwo mutacji [0, 1],\n\t- tm ‒ typ mutacji:\n\t\t-- mi ‒ inwersja,\n\t\t-- mz ‒ zwykła.\n\t- ts ‒ typ selekcji:\n\t\t-- sk ‒ koła ruletki,\n\t\t-- sr ‒ rankingowa,\n\t\t-- st ‒ turniejowa.\n"
+errormsg = "\nUzycie:\n\tmain.jl dw pk tk pm tm ts\n\nGdzie:\n\t- dw ‒ dane wejsciowe, tj. zbior przedmiotow i nosnosc plecaka,\n\t- pk ‒ prawdopodobienstwo krzyzowania [0, 1],\n\t- tk ‒ typ krzyzowania:\n\t\t-- kj ‒ jednopunktowe,\n\t\t-- kd ‒ dwupunktowe,\n\t\t-- kr ‒ rownomierne,\n\t- pm ‒ prawdopodobienstwo mutacji [0, 1],\n\t- tm ‒ typ mutacji:\n\t\t-- mi ‒ inwersja,\n\t\t-- mz ‒ zwykła.\n\t- ts ‒ typ selekcji:\n\t\t-- sk ‒ koła ruletki,\n\t\t-- sr ‒ rankingowa,\n\t\t-- st ‒ turniejowa.\n"
 
 # Przetwarzanie danych zawartych w pliku
 function readdata(filename::String)
