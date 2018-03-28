@@ -1,0 +1,3700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="317.46mm" height="238.1mm" viewBox="0 0 317.46 238.1"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<g class="plotroot xscalable yscalable" id="img-1dd3a4e8-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-1dd3a4e8-2">
+    <text x="155.98" y="226.57" text-anchor="middle" dy="0.6em">Liczba populacji</text>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-1dd3a4e8-3">
+    <text x="22.17" y="220.1" text-anchor="middle" dy="0.6em">0</text>
+    <text x="87.13" y="220.1" text-anchor="middle" dy="0.6em">50</text>
+    <text x="152.08" y="220.1" text-anchor="middle" dy="0.6em">100</text>
+    <text x="217.04" y="220.1" text-anchor="middle" dy="0.6em">150</text>
+    <text x="282" y="220.1" text-anchor="middle" dy="0.6em">200</text>
+  </g>
+  <g class="guide colorkey" id="img-1dd3a4e8-4">
+    <g fill="#4C404B" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-1dd3a4e8-5">
+      <text x="295.88" y="109.96" dy="0.35em" id="img-1dd3a4e8-6" class="color_największa">największa</text>
+      <text x="295.88" y="114.14" dy="0.35em" id="img-1dd3a4e8-7" class="color_średnia">średnia</text>
+      <text x="295.88" y="118.31" dy="0.35em" id="img-1dd3a4e8-8" class="color_najmniejsza">najmniejsza</text>
+    </g>
+    <g stroke="#000000" stroke-opacity="0.000" id="img-1dd3a4e8-9">
+      <rect x="292.79" y="108.92" width="2.09" height="2.09" id="img-1dd3a4e8-10" fill="#00BFFF" class="color_największa"/>
+      <rect x="292.79" y="113.09" width="2.09" height="2.09" id="img-1dd3a4e8-11" fill="#D4CA3A" class="color_średnia"/>
+      <rect x="292.79" y="117.27" width="2.09" height="2.09" id="img-1dd3a4e8-12" fill="#FF6DAE" class="color_najmniejsza"/>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-1dd3a4e8-13">
+      <text x="292.79" y="105.37" id="img-1dd3a4e8-14">Wartość</text>
+    </g>
+  </g>
+<g clip-path="url(#img-1dd3a4e8-15)">
+  <g id="img-1dd3a4e8-16">
+    <g pointer-events="visible" opacity="1" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-1dd3a4e8-17">
+      <rect x="20.17" y="5" width="271.62" height="214.1" id="img-1dd3a4e8-18"/>
+    </g>
+    <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-1dd3a4e8-19">
+      <path fill="none" d="M20.17,217.1 L 291.79 217.1" id="img-1dd3a4e8-20"/>
+      <path fill="none" d="M20.17,144.4 L 291.79 144.4" id="img-1dd3a4e8-21"/>
+      <path fill="none" d="M20.17,71.7 L 291.79 71.7" id="img-1dd3a4e8-22"/>
+    </g>
+    <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-1dd3a4e8-23">
+      <path fill="none" d="M22.17,5 L 22.17 219.1" id="img-1dd3a4e8-24"/>
+      <path fill="none" d="M87.13,5 L 87.13 219.1" id="img-1dd3a4e8-25"/>
+      <path fill="none" d="M152.08,5 L 152.08 219.1" id="img-1dd3a4e8-26"/>
+      <path fill="none" d="M217.04,5 L 217.04 219.1" id="img-1dd3a4e8-27"/>
+      <path fill="none" d="M282,5 L 282 219.1" id="img-1dd3a4e8-28"/>
+    </g>
+    <g class="plotpanel" id="img-1dd3a4e8-29">
+      <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" stroke-dasharray="none" id="img-1dd3a4e8-30">
+        <path fill="none" d="M23.47,52.07 L 24.77 24.45 26.07 24.45 27.37 24.45 28.67 10.63 29.97 16.45 31.27 10.63 32.57 10.63 33.86 10.63 35.16 10.63 36.46 10.63 37.76 10.63 39.06 10.63 40.36 10.63 41.66 10.63 42.96 10.63 44.26 10.63 45.56 10.63 46.86 10.63 48.15 10.63 49.45 10.63 50.75 10.63 52.05 10.63 53.35 10.63 54.65 10.63 55.95 10.63 57.25 10.63 58.55 10.63 59.85 10.63 61.15 10.63 62.45 10.63 63.74 10.63 65.04 10.63 66.34 10.63 67.64 10.63 68.94 10.63 70.24 10.63 71.54 10.63 72.84 10.63 74.14 10.63 75.44 10.63 76.74 10.63 78.03 10.63 79.33 10.63 80.63 10.63 81.93 10.63 83.23 10.63 84.53 10.63 85.83 10.63 87.13 10.63 88.43 10.63 89.73 10.63 91.03 10.63 92.33 10.63 93.62 10.63 94.92 10.63 96.22 10.63 97.52 10.63 98.82 10.63 100.12 10.63 101.42 10.63 102.72 10.63 104.02 10.63 105.32 10.63 106.62 10.63 107.91 10.63 109.21 10.63 110.51 10.63 111.81 10.63 113.11 10.63 114.41 10.63 115.71 10.63 117.01 10.63 118.31 10.63 119.61 10.63 120.91 10.63 122.2 10.63 123.5 10.63 124.8 10.63 126.1 10.63 127.4 10.63 128.7 10.63 130 10.63 131.3 10.63 132.6 10.63 133.9 10.63 135.2 10.63 136.5 10.63 137.79 10.63 139.09 10.63 140.39 10.63 141.69 10.63 142.99 10.63 144.29 10.63 145.59 10.63 146.89 10.63 148.19 10.63 149.49 10.63 150.79 10.63 152.08 10.63 153.38 10.63 154.68 10.63 155.98 10.63 157.28 10.63 158.58 10.63 159.88 10.63 161.18 10.63 162.48 10.63 163.78 10.63 165.08 10.63 166.38 10.63 167.67 10.63 168.97 10.63 170.27 10.63 171.57 10.63 172.87 10.63 174.17 10.63 175.47 10.63 176.77 10.63 178.07 10.63 179.37 10.63 180.67 10.63 181.96 10.63 183.26 10.63 184.56 10.63 185.86 10.63 187.16 10.63 188.46 10.63 189.76 10.63 191.06 10.63 192.36 10.63 193.66 10.63 194.96 10.63 196.26 10.63 197.55 10.63 198.85 10.63 200.15 10.63 201.45 10.63 202.75 10.63 204.05 10.63 205.35 10.63 206.65 10.63 207.95 10.63 209.25 10.63 210.55 10.63 211.84 10.63 213.14 10.63 214.44 10.63 215.74 10.63 217.04 10.63 218.34 10.63 219.64 10.63 220.94 10.63 222.24 10.63 223.54 10.63 224.84 10.63 226.14 10.63 227.43 10.63 228.73 10.63 230.03 10.63 231.33 10.63 232.63 10.63 233.93 10.63 235.23 10.63 236.53 10.63 237.83 10.63 239.13 10.63 240.43 10.63 241.72 10.63 243.02 10.63 244.32 10.63 245.62 10.63 246.92 10.63 248.22 10.63 249.52 10.63 250.82 10.63 252.12 10.63 253.42 10.63 254.72 10.63 256.01 10.63 257.31 10.63 258.61 10.63 259.91 10.63 261.21 10.63 262.51 10.63 263.81 10.63 265.11 10.63 266.41 10.63 267.71 10.63 269.01 10.63 270.31 10.63 271.6 10.63 272.9 10.63 274.2 10.63 275.5 10.63 276.8 10.63 278.1 10.63 279.4 10.63 280.7 10.63 282 10.63 283.3 10.63" id="img-1dd3a4e8-31" stroke="#00BFFF" class="geometry color_największa"/>
+        <path fill="none" d="M23.47,109.36 L 24.77 96.64 26.07 74.84 27.37 71.99 28.67 59.51 29.97 55.59 31.27 48.82 32.57 48.89 33.86 48.26 35.16 45.23 36.46 39.85 37.76 28.32 39.06 16.58 40.36 11.14 41.66 10.88 42.96 12.09 44.26 14.63 45.56 12.55 46.86 13.31 48.15 11.67 49.45 11.64 50.75 12.29 52.05 14.33 53.35 11.97 54.65 12.85 55.95 10.63 57.25 10.63 58.55 15.42 59.85 14.76 61.15 10.63 62.45 12.68 63.74 11.66 65.04 15.44 66.34 10.63 67.64 12.03 68.94 13.39 70.24 11.63 71.54 13.78 72.84 11.54 74.14 12.57 75.44 13.74 76.74 10.63 78.03 17.19 79.33 10.63 80.63 14.56 81.93 12.59 83.23 12.8 84.53 14.21 85.83 12.96 87.13 13.09 88.43 12.09 89.73 13.41 91.03 14.33 92.33 11.92 93.62 11.9 94.92 13.78 96.22 12.95 97.52 13.06 98.82 11.62 100.12 10.63 101.42 13.47 102.72 12.62 104.02 13.78 105.32 12.89 106.62 12.68 107.91 11.73 109.21 12.57 110.51 10.63 111.81 14.55 113.11 13.04 114.41 11.61 115.71 11.63 117.01 14.3 118.31 11.46 119.61 13.21 120.91 13.34 122.2 10.63 123.5 12.49 124.8 11.95 126.1 11.68 127.4 12.18 128.7 11.75 130 12.72 131.3 10.63 132.6 11.64 133.9 13.11 135.2 14.73 136.5 13.88 137.79 13.11 139.09 12.13 140.39 13.16 141.69 12.12 142.99 13.76 144.29 10.63 145.59 12.75 146.89 12.71 148.19 11.52 149.49 10.63 150.79 13.01 152.08 12.03 153.38 12.06 154.68 10.63 155.98 15.34 157.28 12.47 158.58 14.36 159.88 10.63 161.18 10.63 162.48 11.69 163.78 11.66 165.08 11.56 166.38 14.46 167.67 11.63 168.97 11.69 170.27 12.99 171.57 11.62 172.87 10.63 174.17 13.84 175.47 13.11 176.77 12 178.07 12.85 179.37 11.62 180.67 14.6 181.96 11.67 183.26 13.94 184.56 14.02 185.86 10.63 187.16 11.64 188.46 12.03 189.76 12.51 191.06 10.63 192.36 10.63 193.66 11.61 194.96 12.44 196.26 11.54 197.55 16.69 198.85 13.04 200.15 13.94 201.45 11.5 202.75 10.63 204.05 14.56 205.35 11.97 206.65 12.66 207.95 11.97 209.25 12.64 210.55 13.74 211.84 10.63 213.14 13.11 214.44 12.4 215.74 11.88 217.04 11.97 218.34 13.04 219.64 13.87 220.94 11.54 222.24 10.63 223.54 10.63 224.84 15.91 226.14 12.72 227.43 10.63 228.73 11.69 230.03 11.48 231.33 13.91 232.63 12.03 233.93 10.63 235.23 10.63 236.53 11.64 237.83 12.51 239.13 12.29 240.43 12.4 241.72 12.64 243.02 12.64 244.32 12.85 245.62 12.45 246.92 11.5 248.22 11.69 249.52 11.46 250.82 11.48 252.12 14.15 253.42 11.65 254.72 14.84 256.01 11.48 257.31 11.64 258.61 11.52 259.91 11.64 261.21 10.63 262.51 11.63 263.81 11.66 265.11 18.76 266.41 12.74 267.71 10.63 269.01 12 270.31 11.52 271.6 12.57 272.9 12.47 274.2 11.64 275.5 12.99 276.8 12.92 278.1 10.63 279.4 13.79 280.7 10.63 282 12.95 283.3 13.08" id="img-1dd3a4e8-32" stroke="#D4CA3A" class="geometry color_średnia"/>
+        <path fill="none" d="M23.47,175.66 L 24.77 175.66 26.07 150.22 27.37 140.04 28.67 140.04 29.97 150.22 31.27 101.51 32.57 101.51 33.86 118.96 35.16 118.96 36.46 100.78 37.76 100.78 39.06 100.78 40.36 16.45 41.66 16.45 42.96 77.52 44.26 60.07 45.56 59.34 46.86 77.52 48.15 59.34 49.45 60.07 50.75 52.07 52.05 60.07 53.35 77.52 54.65 77.52 55.95 10.63 57.25 10.63 58.55 60.07 59.85 77.52 61.15 10.63 62.45 108.78 63.74 60.07 65.04 60.07 66.34 10.63 67.64 77.52 68.94 60.07 70.24 59.34 71.54 77.52 72.84 52.07 74.14 60.07 75.44 59.34 76.74 10.63 78.03 77.52 79.33 10.63 80.63 60.07 81.93 59.34 83.23 77.52 84.53 77.52 85.83 73.88 87.13 77.52 88.43 77.52 89.73 59.34 91.03 77.52 92.33 59.34 93.62 59.34 94.92 60.07 96.22 77.52 97.52 77.52 98.82 60.07 100.12 10.63 101.42 59.34 102.72 59.34 104.02 77.52 105.32 77.52 106.62 60.07 107.91 60.07 109.21 60.07 110.51 10.63 111.81 59.34 113.11 77.52 114.41 59.34 115.71 59.34 117.01 77.52 118.31 52.07 119.61 59.34 120.91 60.07 122.2 10.63 123.5 60.07 124.8 77.52 126.1 52.07 127.4 77.52 128.7 59.34 130 60.07 131.3 10.63 132.6 60.07 133.9 77.52 135.2 60.07 136.5 60.07 137.79 77.52 139.09 77.52 140.39 77.52 141.69 59.34 142.99 60.07 144.29 10.63 145.59 59.34 146.89 59.34 148.19 52.07 149.49 10.63 150.79 77.52 152.08 77.52 153.38 77.52 154.68 10.63 155.98 60.07 157.28 59.34 158.58 77.52 159.88 10.63 161.18 10.63 162.48 60.07 163.78 60.07 165.08 52.07 166.38 77.52 167.67 59.34 168.97 60.07 170.27 77.52 171.57 60.07 172.87 10.63 174.17 77.52 175.47 77.52 176.77 77.52 178.07 77.52 179.37 60.07 180.67 77.52 181.96 59.34 183.26 77.52 184.56 77.52 185.86 10.63 187.16 60.07 188.46 77.52 189.76 59.34 191.06 10.63 192.36 10.63 193.66 59.34 194.96 52.07 196.26 52.07 197.55 77.52 198.85 77.52 200.15 77.52 201.45 52.07 202.75 10.63 204.05 60.07 205.35 77.52 206.65 59.34 207.95 77.52 209.25 59.34 210.55 60.07 211.84 10.63 213.14 77.52 214.44 52.07 215.74 52.07 217.04 77.52 218.34 77.52 219.64 77.52 220.94 52.07 222.24 10.63 223.54 10.63 224.84 77.52 226.14 60.07 227.43 10.63 228.73 60.07 230.03 52.07 231.33 77.52 232.63 77.52 233.93 10.63 235.23 10.63 236.53 60.07 237.83 59.34 239.13 52.07 240.43 52.07 241.72 59.34 243.02 60.07 244.32 77.52 245.62 60.07 246.92 52.07 248.22 60.07 249.52 52.07 250.82 52.07 252.12 77.52 253.42 59.34 254.72 77.52 256.01 52.07 257.31 60.07 258.61 52.07 259.91 60.07 261.21 10.63 262.51 59.34 263.81 60.07 265.11 118.96 266.41 60.07 267.71 10.63 269.01 77.52 270.31 52.07 271.6 60.07 272.9 59.34 274.2 60.07 275.5 77.52 276.8 77.52 278.1 10.63 279.4 77.52 280.7 10.63 282 59.34 283.3 60.07" id="img-1dd3a4e8-33" stroke="#FF6DAE" class="geometry color_najmniejsza"/>
+      </g>
+      <g class="geometry" id="img-1dd3a4e8-34">
+        <g stroke-width="0.3" id="img-1dd3a4e8-35">
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-36">
+            <use xlink:href="#img-1dd3a4e8-37" x="283.3" y="60.07" id="img-1dd3a4e8-38"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-39">
+            <use xlink:href="#img-1dd3a4e8-40" x="282" y="59.34" id="img-1dd3a4e8-41"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-42">
+            <use xlink:href="#img-1dd3a4e8-43" x="280.7" y="10.63" id="img-1dd3a4e8-44"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-45">
+            <use xlink:href="#img-1dd3a4e8-46" x="279.4" y="77.52" id="img-1dd3a4e8-47"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-48">
+            <use xlink:href="#img-1dd3a4e8-49" x="278.1" y="10.63" id="img-1dd3a4e8-50"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-51">
+            <use xlink:href="#img-1dd3a4e8-52" x="276.8" y="77.52" id="img-1dd3a4e8-53"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-54">
+            <use xlink:href="#img-1dd3a4e8-55" x="275.5" y="77.52" id="img-1dd3a4e8-56"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-57">
+            <use xlink:href="#img-1dd3a4e8-58" x="274.2" y="60.07" id="img-1dd3a4e8-59"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-60">
+            <use xlink:href="#img-1dd3a4e8-61" x="272.9" y="59.34" id="img-1dd3a4e8-62"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-63">
+            <use xlink:href="#img-1dd3a4e8-64" x="271.6" y="60.07" id="img-1dd3a4e8-65"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-66">
+            <use xlink:href="#img-1dd3a4e8-67" x="270.31" y="52.07" id="img-1dd3a4e8-68"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-69">
+            <use xlink:href="#img-1dd3a4e8-70" x="269.01" y="77.52" id="img-1dd3a4e8-71"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-72">
+            <use xlink:href="#img-1dd3a4e8-73" x="267.71" y="10.63" id="img-1dd3a4e8-74"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-75">
+            <use xlink:href="#img-1dd3a4e8-76" x="266.41" y="60.07" id="img-1dd3a4e8-77"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-78">
+            <use xlink:href="#img-1dd3a4e8-79" x="265.11" y="118.96" id="img-1dd3a4e8-80"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-81">
+            <use xlink:href="#img-1dd3a4e8-82" x="263.81" y="60.07" id="img-1dd3a4e8-83"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-84">
+            <use xlink:href="#img-1dd3a4e8-85" x="262.51" y="59.34" id="img-1dd3a4e8-86"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-87">
+            <use xlink:href="#img-1dd3a4e8-88" x="261.21" y="10.63" id="img-1dd3a4e8-89"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-90">
+            <use xlink:href="#img-1dd3a4e8-91" x="259.91" y="60.07" id="img-1dd3a4e8-92"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-93">
+            <use xlink:href="#img-1dd3a4e8-94" x="258.61" y="52.07" id="img-1dd3a4e8-95"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-96">
+            <use xlink:href="#img-1dd3a4e8-97" x="257.31" y="60.07" id="img-1dd3a4e8-98"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-99">
+            <use xlink:href="#img-1dd3a4e8-100" x="256.01" y="52.07" id="img-1dd3a4e8-101"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-102">
+            <use xlink:href="#img-1dd3a4e8-103" x="254.72" y="77.52" id="img-1dd3a4e8-104"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-105">
+            <use xlink:href="#img-1dd3a4e8-106" x="253.42" y="59.34" id="img-1dd3a4e8-107"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-108">
+            <use xlink:href="#img-1dd3a4e8-109" x="252.12" y="77.52" id="img-1dd3a4e8-110"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-111">
+            <use xlink:href="#img-1dd3a4e8-112" x="250.82" y="52.07" id="img-1dd3a4e8-113"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-114">
+            <use xlink:href="#img-1dd3a4e8-115" x="249.52" y="52.07" id="img-1dd3a4e8-116"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-117">
+            <use xlink:href="#img-1dd3a4e8-118" x="248.22" y="60.07" id="img-1dd3a4e8-119"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-120">
+            <use xlink:href="#img-1dd3a4e8-121" x="246.92" y="52.07" id="img-1dd3a4e8-122"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-123">
+            <use xlink:href="#img-1dd3a4e8-124" x="245.62" y="60.07" id="img-1dd3a4e8-125"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-126">
+            <use xlink:href="#img-1dd3a4e8-127" x="244.32" y="77.52" id="img-1dd3a4e8-128"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-129">
+            <use xlink:href="#img-1dd3a4e8-130" x="243.02" y="60.07" id="img-1dd3a4e8-131"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-132">
+            <use xlink:href="#img-1dd3a4e8-133" x="241.72" y="59.34" id="img-1dd3a4e8-134"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-135">
+            <use xlink:href="#img-1dd3a4e8-136" x="240.43" y="52.07" id="img-1dd3a4e8-137"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-138">
+            <use xlink:href="#img-1dd3a4e8-139" x="239.13" y="52.07" id="img-1dd3a4e8-140"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-141">
+            <use xlink:href="#img-1dd3a4e8-142" x="237.83" y="59.34" id="img-1dd3a4e8-143"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-144">
+            <use xlink:href="#img-1dd3a4e8-145" x="236.53" y="60.07" id="img-1dd3a4e8-146"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-147">
+            <use xlink:href="#img-1dd3a4e8-148" x="235.23" y="10.63" id="img-1dd3a4e8-149"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-150">
+            <use xlink:href="#img-1dd3a4e8-151" x="233.93" y="10.63" id="img-1dd3a4e8-152"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-153">
+            <use xlink:href="#img-1dd3a4e8-154" x="232.63" y="77.52" id="img-1dd3a4e8-155"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-156">
+            <use xlink:href="#img-1dd3a4e8-157" x="231.33" y="77.52" id="img-1dd3a4e8-158"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-159">
+            <use xlink:href="#img-1dd3a4e8-160" x="230.03" y="52.07" id="img-1dd3a4e8-161"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-162">
+            <use xlink:href="#img-1dd3a4e8-163" x="228.73" y="60.07" id="img-1dd3a4e8-164"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-165">
+            <use xlink:href="#img-1dd3a4e8-166" x="227.43" y="10.63" id="img-1dd3a4e8-167"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-168">
+            <use xlink:href="#img-1dd3a4e8-169" x="226.14" y="60.07" id="img-1dd3a4e8-170"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-171">
+            <use xlink:href="#img-1dd3a4e8-172" x="224.84" y="77.52" id="img-1dd3a4e8-173"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-174">
+            <use xlink:href="#img-1dd3a4e8-175" x="223.54" y="10.63" id="img-1dd3a4e8-176"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-177">
+            <use xlink:href="#img-1dd3a4e8-178" x="222.24" y="10.63" id="img-1dd3a4e8-179"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-180">
+            <use xlink:href="#img-1dd3a4e8-181" x="220.94" y="52.07" id="img-1dd3a4e8-182"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-183">
+            <use xlink:href="#img-1dd3a4e8-184" x="219.64" y="77.52" id="img-1dd3a4e8-185"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-186">
+            <use xlink:href="#img-1dd3a4e8-187" x="218.34" y="77.52" id="img-1dd3a4e8-188"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-189">
+            <use xlink:href="#img-1dd3a4e8-190" x="217.04" y="77.52" id="img-1dd3a4e8-191"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-192">
+            <use xlink:href="#img-1dd3a4e8-193" x="215.74" y="52.07" id="img-1dd3a4e8-194"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-195">
+            <use xlink:href="#img-1dd3a4e8-196" x="214.44" y="52.07" id="img-1dd3a4e8-197"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-198">
+            <use xlink:href="#img-1dd3a4e8-199" x="213.14" y="77.52" id="img-1dd3a4e8-200"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-201">
+            <use xlink:href="#img-1dd3a4e8-202" x="211.84" y="10.63" id="img-1dd3a4e8-203"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-204">
+            <use xlink:href="#img-1dd3a4e8-205" x="210.55" y="60.07" id="img-1dd3a4e8-206"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-207">
+            <use xlink:href="#img-1dd3a4e8-208" x="209.25" y="59.34" id="img-1dd3a4e8-209"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-210">
+            <use xlink:href="#img-1dd3a4e8-211" x="207.95" y="77.52" id="img-1dd3a4e8-212"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-213">
+            <use xlink:href="#img-1dd3a4e8-214" x="206.65" y="59.34" id="img-1dd3a4e8-215"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-216">
+            <use xlink:href="#img-1dd3a4e8-217" x="205.35" y="77.52" id="img-1dd3a4e8-218"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-219">
+            <use xlink:href="#img-1dd3a4e8-220" x="204.05" y="60.07" id="img-1dd3a4e8-221"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-222">
+            <use xlink:href="#img-1dd3a4e8-223" x="202.75" y="10.63" id="img-1dd3a4e8-224"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-225">
+            <use xlink:href="#img-1dd3a4e8-226" x="201.45" y="52.07" id="img-1dd3a4e8-227"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-228">
+            <use xlink:href="#img-1dd3a4e8-229" x="200.15" y="77.52" id="img-1dd3a4e8-230"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-231">
+            <use xlink:href="#img-1dd3a4e8-232" x="198.85" y="77.52" id="img-1dd3a4e8-233"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-234">
+            <use xlink:href="#img-1dd3a4e8-235" x="197.55" y="77.52" id="img-1dd3a4e8-236"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-237">
+            <use xlink:href="#img-1dd3a4e8-238" x="196.26" y="52.07" id="img-1dd3a4e8-239"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-240">
+            <use xlink:href="#img-1dd3a4e8-241" x="194.96" y="52.07" id="img-1dd3a4e8-242"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-243">
+            <use xlink:href="#img-1dd3a4e8-244" x="193.66" y="59.34" id="img-1dd3a4e8-245"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-246">
+            <use xlink:href="#img-1dd3a4e8-247" x="192.36" y="10.63" id="img-1dd3a4e8-248"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-249">
+            <use xlink:href="#img-1dd3a4e8-250" x="191.06" y="10.63" id="img-1dd3a4e8-251"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-252">
+            <use xlink:href="#img-1dd3a4e8-253" x="189.76" y="59.34" id="img-1dd3a4e8-254"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-255">
+            <use xlink:href="#img-1dd3a4e8-256" x="188.46" y="77.52" id="img-1dd3a4e8-257"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-258">
+            <use xlink:href="#img-1dd3a4e8-259" x="187.16" y="60.07" id="img-1dd3a4e8-260"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-261">
+            <use xlink:href="#img-1dd3a4e8-262" x="185.86" y="10.63" id="img-1dd3a4e8-263"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-264">
+            <use xlink:href="#img-1dd3a4e8-265" x="184.56" y="77.52" id="img-1dd3a4e8-266"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-267">
+            <use xlink:href="#img-1dd3a4e8-268" x="183.26" y="77.52" id="img-1dd3a4e8-269"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-270">
+            <use xlink:href="#img-1dd3a4e8-271" x="181.96" y="59.34" id="img-1dd3a4e8-272"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-273">
+            <use xlink:href="#img-1dd3a4e8-274" x="180.67" y="77.52" id="img-1dd3a4e8-275"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-276">
+            <use xlink:href="#img-1dd3a4e8-277" x="179.37" y="60.07" id="img-1dd3a4e8-278"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-279">
+            <use xlink:href="#img-1dd3a4e8-280" x="178.07" y="77.52" id="img-1dd3a4e8-281"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-282">
+            <use xlink:href="#img-1dd3a4e8-283" x="176.77" y="77.52" id="img-1dd3a4e8-284"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-285">
+            <use xlink:href="#img-1dd3a4e8-286" x="175.47" y="77.52" id="img-1dd3a4e8-287"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-288">
+            <use xlink:href="#img-1dd3a4e8-289" x="174.17" y="77.52" id="img-1dd3a4e8-290"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-291">
+            <use xlink:href="#img-1dd3a4e8-292" x="172.87" y="10.63" id="img-1dd3a4e8-293"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-294">
+            <use xlink:href="#img-1dd3a4e8-295" x="171.57" y="60.07" id="img-1dd3a4e8-296"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-297">
+            <use xlink:href="#img-1dd3a4e8-298" x="170.27" y="77.52" id="img-1dd3a4e8-299"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-300">
+            <use xlink:href="#img-1dd3a4e8-301" x="168.97" y="60.07" id="img-1dd3a4e8-302"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-303">
+            <use xlink:href="#img-1dd3a4e8-304" x="167.67" y="59.34" id="img-1dd3a4e8-305"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-306">
+            <use xlink:href="#img-1dd3a4e8-307" x="166.38" y="77.52" id="img-1dd3a4e8-308"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-309">
+            <use xlink:href="#img-1dd3a4e8-310" x="165.08" y="52.07" id="img-1dd3a4e8-311"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-312">
+            <use xlink:href="#img-1dd3a4e8-313" x="163.78" y="60.07" id="img-1dd3a4e8-314"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-315">
+            <use xlink:href="#img-1dd3a4e8-316" x="162.48" y="60.07" id="img-1dd3a4e8-317"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-318">
+            <use xlink:href="#img-1dd3a4e8-319" x="161.18" y="10.63" id="img-1dd3a4e8-320"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-321">
+            <use xlink:href="#img-1dd3a4e8-322" x="159.88" y="10.63" id="img-1dd3a4e8-323"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-324">
+            <use xlink:href="#img-1dd3a4e8-325" x="158.58" y="77.52" id="img-1dd3a4e8-326"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-327">
+            <use xlink:href="#img-1dd3a4e8-328" x="157.28" y="59.34" id="img-1dd3a4e8-329"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-330">
+            <use xlink:href="#img-1dd3a4e8-331" x="155.98" y="60.07" id="img-1dd3a4e8-332"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-333">
+            <use xlink:href="#img-1dd3a4e8-334" x="154.68" y="10.63" id="img-1dd3a4e8-335"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-336">
+            <use xlink:href="#img-1dd3a4e8-337" x="153.38" y="77.52" id="img-1dd3a4e8-338"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-339">
+            <use xlink:href="#img-1dd3a4e8-340" x="152.08" y="77.52" id="img-1dd3a4e8-341"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-342">
+            <use xlink:href="#img-1dd3a4e8-343" x="150.79" y="77.52" id="img-1dd3a4e8-344"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-345">
+            <use xlink:href="#img-1dd3a4e8-346" x="149.49" y="10.63" id="img-1dd3a4e8-347"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-348">
+            <use xlink:href="#img-1dd3a4e8-349" x="148.19" y="52.07" id="img-1dd3a4e8-350"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-351">
+            <use xlink:href="#img-1dd3a4e8-352" x="146.89" y="59.34" id="img-1dd3a4e8-353"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-354">
+            <use xlink:href="#img-1dd3a4e8-355" x="145.59" y="59.34" id="img-1dd3a4e8-356"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-357">
+            <use xlink:href="#img-1dd3a4e8-358" x="144.29" y="10.63" id="img-1dd3a4e8-359"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-360">
+            <use xlink:href="#img-1dd3a4e8-361" x="142.99" y="60.07" id="img-1dd3a4e8-362"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-363">
+            <use xlink:href="#img-1dd3a4e8-364" x="141.69" y="59.34" id="img-1dd3a4e8-365"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-366">
+            <use xlink:href="#img-1dd3a4e8-367" x="140.39" y="77.52" id="img-1dd3a4e8-368"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-369">
+            <use xlink:href="#img-1dd3a4e8-370" x="139.09" y="77.52" id="img-1dd3a4e8-371"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-372">
+            <use xlink:href="#img-1dd3a4e8-373" x="137.79" y="77.52" id="img-1dd3a4e8-374"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-375">
+            <use xlink:href="#img-1dd3a4e8-376" x="136.5" y="60.07" id="img-1dd3a4e8-377"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-378">
+            <use xlink:href="#img-1dd3a4e8-379" x="135.2" y="60.07" id="img-1dd3a4e8-380"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-381">
+            <use xlink:href="#img-1dd3a4e8-382" x="133.9" y="77.52" id="img-1dd3a4e8-383"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-384">
+            <use xlink:href="#img-1dd3a4e8-385" x="132.6" y="60.07" id="img-1dd3a4e8-386"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-387">
+            <use xlink:href="#img-1dd3a4e8-388" x="131.3" y="10.63" id="img-1dd3a4e8-389"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-390">
+            <use xlink:href="#img-1dd3a4e8-391" x="130" y="60.07" id="img-1dd3a4e8-392"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-393">
+            <use xlink:href="#img-1dd3a4e8-394" x="128.7" y="59.34" id="img-1dd3a4e8-395"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-396">
+            <use xlink:href="#img-1dd3a4e8-397" x="127.4" y="77.52" id="img-1dd3a4e8-398"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-399">
+            <use xlink:href="#img-1dd3a4e8-400" x="126.1" y="52.07" id="img-1dd3a4e8-401"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-402">
+            <use xlink:href="#img-1dd3a4e8-403" x="124.8" y="77.52" id="img-1dd3a4e8-404"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-405">
+            <use xlink:href="#img-1dd3a4e8-406" x="123.5" y="60.07" id="img-1dd3a4e8-407"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-408">
+            <use xlink:href="#img-1dd3a4e8-409" x="122.2" y="10.63" id="img-1dd3a4e8-410"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-411">
+            <use xlink:href="#img-1dd3a4e8-412" x="120.91" y="60.07" id="img-1dd3a4e8-413"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-414">
+            <use xlink:href="#img-1dd3a4e8-415" x="119.61" y="59.34" id="img-1dd3a4e8-416"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-417">
+            <use xlink:href="#img-1dd3a4e8-418" x="118.31" y="52.07" id="img-1dd3a4e8-419"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-420">
+            <use xlink:href="#img-1dd3a4e8-421" x="117.01" y="77.52" id="img-1dd3a4e8-422"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-423">
+            <use xlink:href="#img-1dd3a4e8-424" x="115.71" y="59.34" id="img-1dd3a4e8-425"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-426">
+            <use xlink:href="#img-1dd3a4e8-427" x="114.41" y="59.34" id="img-1dd3a4e8-428"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-429">
+            <use xlink:href="#img-1dd3a4e8-430" x="113.11" y="77.52" id="img-1dd3a4e8-431"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-432">
+            <use xlink:href="#img-1dd3a4e8-433" x="111.81" y="59.34" id="img-1dd3a4e8-434"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-435">
+            <use xlink:href="#img-1dd3a4e8-436" x="110.51" y="10.63" id="img-1dd3a4e8-437"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-438">
+            <use xlink:href="#img-1dd3a4e8-439" x="109.21" y="60.07" id="img-1dd3a4e8-440"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-441">
+            <use xlink:href="#img-1dd3a4e8-442" x="107.91" y="60.07" id="img-1dd3a4e8-443"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-444">
+            <use xlink:href="#img-1dd3a4e8-445" x="106.62" y="60.07" id="img-1dd3a4e8-446"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-447">
+            <use xlink:href="#img-1dd3a4e8-448" x="105.32" y="77.52" id="img-1dd3a4e8-449"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-450">
+            <use xlink:href="#img-1dd3a4e8-451" x="104.02" y="77.52" id="img-1dd3a4e8-452"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-453">
+            <use xlink:href="#img-1dd3a4e8-454" x="102.72" y="59.34" id="img-1dd3a4e8-455"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-456">
+            <use xlink:href="#img-1dd3a4e8-457" x="101.42" y="59.34" id="img-1dd3a4e8-458"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-459">
+            <use xlink:href="#img-1dd3a4e8-460" x="100.12" y="10.63" id="img-1dd3a4e8-461"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-462">
+            <use xlink:href="#img-1dd3a4e8-463" x="98.82" y="60.07" id="img-1dd3a4e8-464"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-465">
+            <use xlink:href="#img-1dd3a4e8-466" x="97.52" y="77.52" id="img-1dd3a4e8-467"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-468">
+            <use xlink:href="#img-1dd3a4e8-469" x="96.22" y="77.52" id="img-1dd3a4e8-470"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-471">
+            <use xlink:href="#img-1dd3a4e8-472" x="94.92" y="60.07" id="img-1dd3a4e8-473"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-474">
+            <use xlink:href="#img-1dd3a4e8-475" x="93.62" y="59.34" id="img-1dd3a4e8-476"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-477">
+            <use xlink:href="#img-1dd3a4e8-478" x="92.33" y="59.34" id="img-1dd3a4e8-479"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-480">
+            <use xlink:href="#img-1dd3a4e8-481" x="91.03" y="77.52" id="img-1dd3a4e8-482"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-483">
+            <use xlink:href="#img-1dd3a4e8-484" x="89.73" y="59.34" id="img-1dd3a4e8-485"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-486">
+            <use xlink:href="#img-1dd3a4e8-487" x="88.43" y="77.52" id="img-1dd3a4e8-488"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-489">
+            <use xlink:href="#img-1dd3a4e8-490" x="87.13" y="77.52" id="img-1dd3a4e8-491"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-492">
+            <use xlink:href="#img-1dd3a4e8-493" x="85.83" y="73.88" id="img-1dd3a4e8-494"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-495">
+            <use xlink:href="#img-1dd3a4e8-496" x="84.53" y="77.52" id="img-1dd3a4e8-497"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-498">
+            <use xlink:href="#img-1dd3a4e8-499" x="83.23" y="77.52" id="img-1dd3a4e8-500"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-501">
+            <use xlink:href="#img-1dd3a4e8-502" x="81.93" y="59.34" id="img-1dd3a4e8-503"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-504">
+            <use xlink:href="#img-1dd3a4e8-505" x="80.63" y="60.07" id="img-1dd3a4e8-506"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-507">
+            <use xlink:href="#img-1dd3a4e8-508" x="79.33" y="10.63" id="img-1dd3a4e8-509"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-510">
+            <use xlink:href="#img-1dd3a4e8-511" x="78.03" y="77.52" id="img-1dd3a4e8-512"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-513">
+            <use xlink:href="#img-1dd3a4e8-514" x="76.74" y="10.63" id="img-1dd3a4e8-515"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-516">
+            <use xlink:href="#img-1dd3a4e8-517" x="75.44" y="59.34" id="img-1dd3a4e8-518"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-519">
+            <use xlink:href="#img-1dd3a4e8-520" x="74.14" y="60.07" id="img-1dd3a4e8-521"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-522">
+            <use xlink:href="#img-1dd3a4e8-523" x="72.84" y="52.07" id="img-1dd3a4e8-524"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-525">
+            <use xlink:href="#img-1dd3a4e8-526" x="71.54" y="77.52" id="img-1dd3a4e8-527"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-528">
+            <use xlink:href="#img-1dd3a4e8-529" x="70.24" y="59.34" id="img-1dd3a4e8-530"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-531">
+            <use xlink:href="#img-1dd3a4e8-532" x="68.94" y="60.07" id="img-1dd3a4e8-533"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-534">
+            <use xlink:href="#img-1dd3a4e8-535" x="67.64" y="77.52" id="img-1dd3a4e8-536"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-537">
+            <use xlink:href="#img-1dd3a4e8-538" x="66.34" y="10.63" id="img-1dd3a4e8-539"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-540">
+            <use xlink:href="#img-1dd3a4e8-541" x="65.04" y="60.07" id="img-1dd3a4e8-542"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-543">
+            <use xlink:href="#img-1dd3a4e8-544" x="63.74" y="60.07" id="img-1dd3a4e8-545"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-546">
+            <use xlink:href="#img-1dd3a4e8-547" x="62.45" y="108.78" id="img-1dd3a4e8-548"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-549">
+            <use xlink:href="#img-1dd3a4e8-550" x="61.15" y="10.63" id="img-1dd3a4e8-551"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-552">
+            <use xlink:href="#img-1dd3a4e8-553" x="59.85" y="77.52" id="img-1dd3a4e8-554"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-555">
+            <use xlink:href="#img-1dd3a4e8-556" x="58.55" y="60.07" id="img-1dd3a4e8-557"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-558">
+            <use xlink:href="#img-1dd3a4e8-559" x="57.25" y="10.63" id="img-1dd3a4e8-560"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-561">
+            <use xlink:href="#img-1dd3a4e8-562" x="55.95" y="10.63" id="img-1dd3a4e8-563"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-564">
+            <use xlink:href="#img-1dd3a4e8-565" x="54.65" y="77.52" id="img-1dd3a4e8-566"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-567">
+            <use xlink:href="#img-1dd3a4e8-568" x="53.35" y="77.52" id="img-1dd3a4e8-569"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-570">
+            <use xlink:href="#img-1dd3a4e8-571" x="52.05" y="60.07" id="img-1dd3a4e8-572"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-573">
+            <use xlink:href="#img-1dd3a4e8-574" x="50.75" y="52.07" id="img-1dd3a4e8-575"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-576">
+            <use xlink:href="#img-1dd3a4e8-577" x="49.45" y="60.07" id="img-1dd3a4e8-578"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-579">
+            <use xlink:href="#img-1dd3a4e8-580" x="48.15" y="59.34" id="img-1dd3a4e8-581"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-582">
+            <use xlink:href="#img-1dd3a4e8-583" x="46.86" y="77.52" id="img-1dd3a4e8-584"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-585">
+            <use xlink:href="#img-1dd3a4e8-586" x="45.56" y="59.34" id="img-1dd3a4e8-587"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-588">
+            <use xlink:href="#img-1dd3a4e8-589" x="44.26" y="60.07" id="img-1dd3a4e8-590"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-591">
+            <use xlink:href="#img-1dd3a4e8-592" x="42.96" y="77.52" id="img-1dd3a4e8-593"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-594">
+            <use xlink:href="#img-1dd3a4e8-595" x="41.66" y="16.45" id="img-1dd3a4e8-596"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-597">
+            <use xlink:href="#img-1dd3a4e8-598" x="40.36" y="16.45" id="img-1dd3a4e8-599"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-600">
+            <use xlink:href="#img-1dd3a4e8-601" x="39.06" y="100.78" id="img-1dd3a4e8-602"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-603">
+            <use xlink:href="#img-1dd3a4e8-604" x="37.76" y="100.78" id="img-1dd3a4e8-605"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-606">
+            <use xlink:href="#img-1dd3a4e8-607" x="36.46" y="100.78" id="img-1dd3a4e8-608"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-609">
+            <use xlink:href="#img-1dd3a4e8-610" x="35.16" y="118.96" id="img-1dd3a4e8-611"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-612">
+            <use xlink:href="#img-1dd3a4e8-613" x="33.86" y="118.96" id="img-1dd3a4e8-614"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-615">
+            <use xlink:href="#img-1dd3a4e8-616" x="32.57" y="101.51" id="img-1dd3a4e8-617"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-618">
+            <use xlink:href="#img-1dd3a4e8-619" x="31.27" y="101.51" id="img-1dd3a4e8-620"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-621">
+            <use xlink:href="#img-1dd3a4e8-622" x="29.97" y="150.22" id="img-1dd3a4e8-623"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-624">
+            <use xlink:href="#img-1dd3a4e8-625" x="28.67" y="140.04" id="img-1dd3a4e8-626"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-627">
+            <use xlink:href="#img-1dd3a4e8-628" x="27.37" y="140.04" id="img-1dd3a4e8-629"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-630">
+            <use xlink:href="#img-1dd3a4e8-631" x="26.07" y="150.22" id="img-1dd3a4e8-632"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-633">
+            <use xlink:href="#img-1dd3a4e8-634" x="24.77" y="175.66" id="img-1dd3a4e8-635"/>
+          </g>
+          <g class="color_najmniejsza" stroke="#FFFFFF" fill="#FF6DAE" id="img-1dd3a4e8-636">
+            <use xlink:href="#img-1dd3a4e8-637" x="23.47" y="175.66" id="img-1dd3a4e8-638"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-639">
+            <use xlink:href="#img-1dd3a4e8-640" x="283.3" y="13.08" id="img-1dd3a4e8-641"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-642">
+            <use xlink:href="#img-1dd3a4e8-643" x="282" y="12.95" id="img-1dd3a4e8-644"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-645">
+            <use xlink:href="#img-1dd3a4e8-646" x="280.7" y="10.63" id="img-1dd3a4e8-647"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-648">
+            <use xlink:href="#img-1dd3a4e8-649" x="279.4" y="13.79" id="img-1dd3a4e8-650"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-651">
+            <use xlink:href="#img-1dd3a4e8-652" x="278.1" y="10.63" id="img-1dd3a4e8-653"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-654">
+            <use xlink:href="#img-1dd3a4e8-655" x="276.8" y="12.92" id="img-1dd3a4e8-656"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-657">
+            <use xlink:href="#img-1dd3a4e8-658" x="275.5" y="12.99" id="img-1dd3a4e8-659"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-660">
+            <use xlink:href="#img-1dd3a4e8-661" x="274.2" y="11.64" id="img-1dd3a4e8-662"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-663">
+            <use xlink:href="#img-1dd3a4e8-664" x="272.9" y="12.47" id="img-1dd3a4e8-665"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-666">
+            <use xlink:href="#img-1dd3a4e8-667" x="271.6" y="12.57" id="img-1dd3a4e8-668"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-669">
+            <use xlink:href="#img-1dd3a4e8-670" x="270.31" y="11.52" id="img-1dd3a4e8-671"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-672">
+            <use xlink:href="#img-1dd3a4e8-673" x="269.01" y="12" id="img-1dd3a4e8-674"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-675">
+            <use xlink:href="#img-1dd3a4e8-676" x="267.71" y="10.63" id="img-1dd3a4e8-677"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-678">
+            <use xlink:href="#img-1dd3a4e8-679" x="266.41" y="12.74" id="img-1dd3a4e8-680"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-681">
+            <use xlink:href="#img-1dd3a4e8-682" x="265.11" y="18.76" id="img-1dd3a4e8-683"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-684">
+            <use xlink:href="#img-1dd3a4e8-685" x="263.81" y="11.66" id="img-1dd3a4e8-686"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-687">
+            <use xlink:href="#img-1dd3a4e8-688" x="262.51" y="11.63" id="img-1dd3a4e8-689"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-690">
+            <use xlink:href="#img-1dd3a4e8-691" x="261.21" y="10.63" id="img-1dd3a4e8-692"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-693">
+            <use xlink:href="#img-1dd3a4e8-694" x="259.91" y="11.64" id="img-1dd3a4e8-695"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-696">
+            <use xlink:href="#img-1dd3a4e8-697" x="258.61" y="11.52" id="img-1dd3a4e8-698"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-699">
+            <use xlink:href="#img-1dd3a4e8-700" x="257.31" y="11.64" id="img-1dd3a4e8-701"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-702">
+            <use xlink:href="#img-1dd3a4e8-703" x="256.01" y="11.48" id="img-1dd3a4e8-704"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-705">
+            <use xlink:href="#img-1dd3a4e8-706" x="254.72" y="14.84" id="img-1dd3a4e8-707"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-708">
+            <use xlink:href="#img-1dd3a4e8-709" x="253.42" y="11.65" id="img-1dd3a4e8-710"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-711">
+            <use xlink:href="#img-1dd3a4e8-712" x="252.12" y="14.15" id="img-1dd3a4e8-713"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-714">
+            <use xlink:href="#img-1dd3a4e8-715" x="250.82" y="11.48" id="img-1dd3a4e8-716"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-717">
+            <use xlink:href="#img-1dd3a4e8-718" x="249.52" y="11.46" id="img-1dd3a4e8-719"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-720">
+            <use xlink:href="#img-1dd3a4e8-721" x="248.22" y="11.69" id="img-1dd3a4e8-722"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-723">
+            <use xlink:href="#img-1dd3a4e8-724" x="246.92" y="11.5" id="img-1dd3a4e8-725"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-726">
+            <use xlink:href="#img-1dd3a4e8-727" x="245.62" y="12.45" id="img-1dd3a4e8-728"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-729">
+            <use xlink:href="#img-1dd3a4e8-730" x="244.32" y="12.85" id="img-1dd3a4e8-731"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-732">
+            <use xlink:href="#img-1dd3a4e8-733" x="243.02" y="12.64" id="img-1dd3a4e8-734"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-735">
+            <use xlink:href="#img-1dd3a4e8-736" x="241.72" y="12.64" id="img-1dd3a4e8-737"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-738">
+            <use xlink:href="#img-1dd3a4e8-739" x="240.43" y="12.4" id="img-1dd3a4e8-740"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-741">
+            <use xlink:href="#img-1dd3a4e8-742" x="239.13" y="12.29" id="img-1dd3a4e8-743"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-744">
+            <use xlink:href="#img-1dd3a4e8-745" x="237.83" y="12.51" id="img-1dd3a4e8-746"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-747">
+            <use xlink:href="#img-1dd3a4e8-748" x="236.53" y="11.64" id="img-1dd3a4e8-749"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-750">
+            <use xlink:href="#img-1dd3a4e8-751" x="235.23" y="10.63" id="img-1dd3a4e8-752"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-753">
+            <use xlink:href="#img-1dd3a4e8-754" x="233.93" y="10.63" id="img-1dd3a4e8-755"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-756">
+            <use xlink:href="#img-1dd3a4e8-757" x="232.63" y="12.03" id="img-1dd3a4e8-758"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-759">
+            <use xlink:href="#img-1dd3a4e8-760" x="231.33" y="13.91" id="img-1dd3a4e8-761"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-762">
+            <use xlink:href="#img-1dd3a4e8-763" x="230.03" y="11.48" id="img-1dd3a4e8-764"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-765">
+            <use xlink:href="#img-1dd3a4e8-766" x="228.73" y="11.69" id="img-1dd3a4e8-767"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-768">
+            <use xlink:href="#img-1dd3a4e8-769" x="227.43" y="10.63" id="img-1dd3a4e8-770"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-771">
+            <use xlink:href="#img-1dd3a4e8-772" x="226.14" y="12.72" id="img-1dd3a4e8-773"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-774">
+            <use xlink:href="#img-1dd3a4e8-775" x="224.84" y="15.91" id="img-1dd3a4e8-776"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-777">
+            <use xlink:href="#img-1dd3a4e8-778" x="223.54" y="10.63" id="img-1dd3a4e8-779"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-780">
+            <use xlink:href="#img-1dd3a4e8-781" x="222.24" y="10.63" id="img-1dd3a4e8-782"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-783">
+            <use xlink:href="#img-1dd3a4e8-784" x="220.94" y="11.54" id="img-1dd3a4e8-785"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-786">
+            <use xlink:href="#img-1dd3a4e8-787" x="219.64" y="13.87" id="img-1dd3a4e8-788"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-789">
+            <use xlink:href="#img-1dd3a4e8-790" x="218.34" y="13.04" id="img-1dd3a4e8-791"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-792">
+            <use xlink:href="#img-1dd3a4e8-793" x="217.04" y="11.97" id="img-1dd3a4e8-794"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-795">
+            <use xlink:href="#img-1dd3a4e8-796" x="215.74" y="11.88" id="img-1dd3a4e8-797"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-798">
+            <use xlink:href="#img-1dd3a4e8-799" x="214.44" y="12.4" id="img-1dd3a4e8-800"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-801">
+            <use xlink:href="#img-1dd3a4e8-802" x="213.14" y="13.11" id="img-1dd3a4e8-803"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-804">
+            <use xlink:href="#img-1dd3a4e8-805" x="211.84" y="10.63" id="img-1dd3a4e8-806"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-807">
+            <use xlink:href="#img-1dd3a4e8-808" x="210.55" y="13.74" id="img-1dd3a4e8-809"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-810">
+            <use xlink:href="#img-1dd3a4e8-811" x="209.25" y="12.64" id="img-1dd3a4e8-812"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-813">
+            <use xlink:href="#img-1dd3a4e8-814" x="207.95" y="11.97" id="img-1dd3a4e8-815"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-816">
+            <use xlink:href="#img-1dd3a4e8-817" x="206.65" y="12.66" id="img-1dd3a4e8-818"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-819">
+            <use xlink:href="#img-1dd3a4e8-820" x="205.35" y="11.97" id="img-1dd3a4e8-821"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-822">
+            <use xlink:href="#img-1dd3a4e8-823" x="204.05" y="14.56" id="img-1dd3a4e8-824"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-825">
+            <use xlink:href="#img-1dd3a4e8-826" x="202.75" y="10.63" id="img-1dd3a4e8-827"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-828">
+            <use xlink:href="#img-1dd3a4e8-829" x="201.45" y="11.5" id="img-1dd3a4e8-830"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-831">
+            <use xlink:href="#img-1dd3a4e8-832" x="200.15" y="13.94" id="img-1dd3a4e8-833"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-834">
+            <use xlink:href="#img-1dd3a4e8-835" x="198.85" y="13.04" id="img-1dd3a4e8-836"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-837">
+            <use xlink:href="#img-1dd3a4e8-838" x="197.55" y="16.69" id="img-1dd3a4e8-839"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-840">
+            <use xlink:href="#img-1dd3a4e8-841" x="196.26" y="11.54" id="img-1dd3a4e8-842"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-843">
+            <use xlink:href="#img-1dd3a4e8-844" x="194.96" y="12.44" id="img-1dd3a4e8-845"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-846">
+            <use xlink:href="#img-1dd3a4e8-847" x="193.66" y="11.61" id="img-1dd3a4e8-848"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-849">
+            <use xlink:href="#img-1dd3a4e8-850" x="192.36" y="10.63" id="img-1dd3a4e8-851"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-852">
+            <use xlink:href="#img-1dd3a4e8-853" x="191.06" y="10.63" id="img-1dd3a4e8-854"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-855">
+            <use xlink:href="#img-1dd3a4e8-856" x="189.76" y="12.51" id="img-1dd3a4e8-857"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-858">
+            <use xlink:href="#img-1dd3a4e8-859" x="188.46" y="12.03" id="img-1dd3a4e8-860"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-861">
+            <use xlink:href="#img-1dd3a4e8-862" x="187.16" y="11.64" id="img-1dd3a4e8-863"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-864">
+            <use xlink:href="#img-1dd3a4e8-865" x="185.86" y="10.63" id="img-1dd3a4e8-866"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-867">
+            <use xlink:href="#img-1dd3a4e8-868" x="184.56" y="14.02" id="img-1dd3a4e8-869"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-870">
+            <use xlink:href="#img-1dd3a4e8-871" x="183.26" y="13.94" id="img-1dd3a4e8-872"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-873">
+            <use xlink:href="#img-1dd3a4e8-874" x="181.96" y="11.67" id="img-1dd3a4e8-875"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-876">
+            <use xlink:href="#img-1dd3a4e8-877" x="180.67" y="14.6" id="img-1dd3a4e8-878"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-879">
+            <use xlink:href="#img-1dd3a4e8-880" x="179.37" y="11.62" id="img-1dd3a4e8-881"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-882">
+            <use xlink:href="#img-1dd3a4e8-883" x="178.07" y="12.85" id="img-1dd3a4e8-884"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-885">
+            <use xlink:href="#img-1dd3a4e8-886" x="176.77" y="12" id="img-1dd3a4e8-887"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-888">
+            <use xlink:href="#img-1dd3a4e8-889" x="175.47" y="13.11" id="img-1dd3a4e8-890"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-891">
+            <use xlink:href="#img-1dd3a4e8-892" x="174.17" y="13.84" id="img-1dd3a4e8-893"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-894">
+            <use xlink:href="#img-1dd3a4e8-895" x="172.87" y="10.63" id="img-1dd3a4e8-896"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-897">
+            <use xlink:href="#img-1dd3a4e8-898" x="171.57" y="11.62" id="img-1dd3a4e8-899"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-900">
+            <use xlink:href="#img-1dd3a4e8-901" x="170.27" y="12.99" id="img-1dd3a4e8-902"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-903">
+            <use xlink:href="#img-1dd3a4e8-904" x="168.97" y="11.69" id="img-1dd3a4e8-905"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-906">
+            <use xlink:href="#img-1dd3a4e8-907" x="167.67" y="11.63" id="img-1dd3a4e8-908"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-909">
+            <use xlink:href="#img-1dd3a4e8-910" x="166.38" y="14.46" id="img-1dd3a4e8-911"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-912">
+            <use xlink:href="#img-1dd3a4e8-913" x="165.08" y="11.56" id="img-1dd3a4e8-914"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-915">
+            <use xlink:href="#img-1dd3a4e8-916" x="163.78" y="11.66" id="img-1dd3a4e8-917"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-918">
+            <use xlink:href="#img-1dd3a4e8-919" x="162.48" y="11.69" id="img-1dd3a4e8-920"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-921">
+            <use xlink:href="#img-1dd3a4e8-922" x="161.18" y="10.63" id="img-1dd3a4e8-923"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-924">
+            <use xlink:href="#img-1dd3a4e8-925" x="159.88" y="10.63" id="img-1dd3a4e8-926"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-927">
+            <use xlink:href="#img-1dd3a4e8-928" x="158.58" y="14.36" id="img-1dd3a4e8-929"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-930">
+            <use xlink:href="#img-1dd3a4e8-931" x="157.28" y="12.47" id="img-1dd3a4e8-932"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-933">
+            <use xlink:href="#img-1dd3a4e8-934" x="155.98" y="15.34" id="img-1dd3a4e8-935"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-936">
+            <use xlink:href="#img-1dd3a4e8-937" x="154.68" y="10.63" id="img-1dd3a4e8-938"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-939">
+            <use xlink:href="#img-1dd3a4e8-940" x="153.38" y="12.06" id="img-1dd3a4e8-941"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-942">
+            <use xlink:href="#img-1dd3a4e8-943" x="152.08" y="12.03" id="img-1dd3a4e8-944"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-945">
+            <use xlink:href="#img-1dd3a4e8-946" x="150.79" y="13.01" id="img-1dd3a4e8-947"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-948">
+            <use xlink:href="#img-1dd3a4e8-949" x="149.49" y="10.63" id="img-1dd3a4e8-950"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-951">
+            <use xlink:href="#img-1dd3a4e8-952" x="148.19" y="11.52" id="img-1dd3a4e8-953"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-954">
+            <use xlink:href="#img-1dd3a4e8-955" x="146.89" y="12.71" id="img-1dd3a4e8-956"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-957">
+            <use xlink:href="#img-1dd3a4e8-958" x="145.59" y="12.75" id="img-1dd3a4e8-959"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-960">
+            <use xlink:href="#img-1dd3a4e8-961" x="144.29" y="10.63" id="img-1dd3a4e8-962"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-963">
+            <use xlink:href="#img-1dd3a4e8-964" x="142.99" y="13.76" id="img-1dd3a4e8-965"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-966">
+            <use xlink:href="#img-1dd3a4e8-967" x="141.69" y="12.12" id="img-1dd3a4e8-968"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-969">
+            <use xlink:href="#img-1dd3a4e8-970" x="140.39" y="13.16" id="img-1dd3a4e8-971"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-972">
+            <use xlink:href="#img-1dd3a4e8-973" x="139.09" y="12.13" id="img-1dd3a4e8-974"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-975">
+            <use xlink:href="#img-1dd3a4e8-976" x="137.79" y="13.11" id="img-1dd3a4e8-977"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-978">
+            <use xlink:href="#img-1dd3a4e8-979" x="136.5" y="13.88" id="img-1dd3a4e8-980"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-981">
+            <use xlink:href="#img-1dd3a4e8-982" x="135.2" y="14.73" id="img-1dd3a4e8-983"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-984">
+            <use xlink:href="#img-1dd3a4e8-985" x="133.9" y="13.11" id="img-1dd3a4e8-986"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-987">
+            <use xlink:href="#img-1dd3a4e8-988" x="132.6" y="11.64" id="img-1dd3a4e8-989"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-990">
+            <use xlink:href="#img-1dd3a4e8-991" x="131.3" y="10.63" id="img-1dd3a4e8-992"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-993">
+            <use xlink:href="#img-1dd3a4e8-994" x="130" y="12.72" id="img-1dd3a4e8-995"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-996">
+            <use xlink:href="#img-1dd3a4e8-997" x="128.7" y="11.75" id="img-1dd3a4e8-998"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-999">
+            <use xlink:href="#img-1dd3a4e8-1000" x="127.4" y="12.18" id="img-1dd3a4e8-1001"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1002">
+            <use xlink:href="#img-1dd3a4e8-1003" x="126.1" y="11.68" id="img-1dd3a4e8-1004"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1005">
+            <use xlink:href="#img-1dd3a4e8-1006" x="124.8" y="11.95" id="img-1dd3a4e8-1007"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1008">
+            <use xlink:href="#img-1dd3a4e8-1009" x="123.5" y="12.49" id="img-1dd3a4e8-1010"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1011">
+            <use xlink:href="#img-1dd3a4e8-1012" x="122.2" y="10.63" id="img-1dd3a4e8-1013"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1014">
+            <use xlink:href="#img-1dd3a4e8-1015" x="120.91" y="13.34" id="img-1dd3a4e8-1016"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1017">
+            <use xlink:href="#img-1dd3a4e8-1018" x="119.61" y="13.21" id="img-1dd3a4e8-1019"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1020">
+            <use xlink:href="#img-1dd3a4e8-1021" x="118.31" y="11.46" id="img-1dd3a4e8-1022"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1023">
+            <use xlink:href="#img-1dd3a4e8-1024" x="117.01" y="14.3" id="img-1dd3a4e8-1025"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1026">
+            <use xlink:href="#img-1dd3a4e8-1027" x="115.71" y="11.63" id="img-1dd3a4e8-1028"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1029">
+            <use xlink:href="#img-1dd3a4e8-1030" x="114.41" y="11.61" id="img-1dd3a4e8-1031"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1032">
+            <use xlink:href="#img-1dd3a4e8-1033" x="113.11" y="13.04" id="img-1dd3a4e8-1034"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1035">
+            <use xlink:href="#img-1dd3a4e8-1036" x="111.81" y="14.55" id="img-1dd3a4e8-1037"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1038">
+            <use xlink:href="#img-1dd3a4e8-1039" x="110.51" y="10.63" id="img-1dd3a4e8-1040"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1041">
+            <use xlink:href="#img-1dd3a4e8-1042" x="109.21" y="12.57" id="img-1dd3a4e8-1043"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1044">
+            <use xlink:href="#img-1dd3a4e8-1045" x="107.91" y="11.73" id="img-1dd3a4e8-1046"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1047">
+            <use xlink:href="#img-1dd3a4e8-1048" x="106.62" y="12.68" id="img-1dd3a4e8-1049"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1050">
+            <use xlink:href="#img-1dd3a4e8-1051" x="105.32" y="12.89" id="img-1dd3a4e8-1052"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1053">
+            <use xlink:href="#img-1dd3a4e8-1054" x="104.02" y="13.78" id="img-1dd3a4e8-1055"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1056">
+            <use xlink:href="#img-1dd3a4e8-1057" x="102.72" y="12.62" id="img-1dd3a4e8-1058"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1059">
+            <use xlink:href="#img-1dd3a4e8-1060" x="101.42" y="13.47" id="img-1dd3a4e8-1061"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1062">
+            <use xlink:href="#img-1dd3a4e8-1063" x="100.12" y="10.63" id="img-1dd3a4e8-1064"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1065">
+            <use xlink:href="#img-1dd3a4e8-1066" x="98.82" y="11.62" id="img-1dd3a4e8-1067"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1068">
+            <use xlink:href="#img-1dd3a4e8-1069" x="97.52" y="13.06" id="img-1dd3a4e8-1070"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1071">
+            <use xlink:href="#img-1dd3a4e8-1072" x="96.22" y="12.95" id="img-1dd3a4e8-1073"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1074">
+            <use xlink:href="#img-1dd3a4e8-1075" x="94.92" y="13.78" id="img-1dd3a4e8-1076"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1077">
+            <use xlink:href="#img-1dd3a4e8-1078" x="93.62" y="11.9" id="img-1dd3a4e8-1079"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1080">
+            <use xlink:href="#img-1dd3a4e8-1081" x="92.33" y="11.92" id="img-1dd3a4e8-1082"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1083">
+            <use xlink:href="#img-1dd3a4e8-1084" x="91.03" y="14.33" id="img-1dd3a4e8-1085"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1086">
+            <use xlink:href="#img-1dd3a4e8-1087" x="89.73" y="13.41" id="img-1dd3a4e8-1088"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1089">
+            <use xlink:href="#img-1dd3a4e8-1090" x="88.43" y="12.09" id="img-1dd3a4e8-1091"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1092">
+            <use xlink:href="#img-1dd3a4e8-1093" x="87.13" y="13.09" id="img-1dd3a4e8-1094"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1095">
+            <use xlink:href="#img-1dd3a4e8-1096" x="85.83" y="12.96" id="img-1dd3a4e8-1097"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1098">
+            <use xlink:href="#img-1dd3a4e8-1099" x="84.53" y="14.21" id="img-1dd3a4e8-1100"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1101">
+            <use xlink:href="#img-1dd3a4e8-1102" x="83.23" y="12.8" id="img-1dd3a4e8-1103"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1104">
+            <use xlink:href="#img-1dd3a4e8-1105" x="81.93" y="12.59" id="img-1dd3a4e8-1106"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1107">
+            <use xlink:href="#img-1dd3a4e8-1108" x="80.63" y="14.56" id="img-1dd3a4e8-1109"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1110">
+            <use xlink:href="#img-1dd3a4e8-1111" x="79.33" y="10.63" id="img-1dd3a4e8-1112"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1113">
+            <use xlink:href="#img-1dd3a4e8-1114" x="78.03" y="17.19" id="img-1dd3a4e8-1115"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1116">
+            <use xlink:href="#img-1dd3a4e8-1117" x="76.74" y="10.63" id="img-1dd3a4e8-1118"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1119">
+            <use xlink:href="#img-1dd3a4e8-1120" x="75.44" y="13.74" id="img-1dd3a4e8-1121"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1122">
+            <use xlink:href="#img-1dd3a4e8-1123" x="74.14" y="12.57" id="img-1dd3a4e8-1124"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1125">
+            <use xlink:href="#img-1dd3a4e8-1126" x="72.84" y="11.54" id="img-1dd3a4e8-1127"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1128">
+            <use xlink:href="#img-1dd3a4e8-1129" x="71.54" y="13.78" id="img-1dd3a4e8-1130"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1131">
+            <use xlink:href="#img-1dd3a4e8-1132" x="70.24" y="11.63" id="img-1dd3a4e8-1133"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1134">
+            <use xlink:href="#img-1dd3a4e8-1135" x="68.94" y="13.39" id="img-1dd3a4e8-1136"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1137">
+            <use xlink:href="#img-1dd3a4e8-1138" x="67.64" y="12.03" id="img-1dd3a4e8-1139"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1140">
+            <use xlink:href="#img-1dd3a4e8-1141" x="66.34" y="10.63" id="img-1dd3a4e8-1142"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1143">
+            <use xlink:href="#img-1dd3a4e8-1144" x="65.04" y="15.44" id="img-1dd3a4e8-1145"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1146">
+            <use xlink:href="#img-1dd3a4e8-1147" x="63.74" y="11.66" id="img-1dd3a4e8-1148"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1149">
+            <use xlink:href="#img-1dd3a4e8-1150" x="62.45" y="12.68" id="img-1dd3a4e8-1151"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1152">
+            <use xlink:href="#img-1dd3a4e8-1153" x="61.15" y="10.63" id="img-1dd3a4e8-1154"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1155">
+            <use xlink:href="#img-1dd3a4e8-1156" x="59.85" y="14.76" id="img-1dd3a4e8-1157"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1158">
+            <use xlink:href="#img-1dd3a4e8-1159" x="58.55" y="15.42" id="img-1dd3a4e8-1160"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1161">
+            <use xlink:href="#img-1dd3a4e8-1162" x="57.25" y="10.63" id="img-1dd3a4e8-1163"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1164">
+            <use xlink:href="#img-1dd3a4e8-1165" x="55.95" y="10.63" id="img-1dd3a4e8-1166"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1167">
+            <use xlink:href="#img-1dd3a4e8-1168" x="54.65" y="12.85" id="img-1dd3a4e8-1169"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1170">
+            <use xlink:href="#img-1dd3a4e8-1171" x="53.35" y="11.97" id="img-1dd3a4e8-1172"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1173">
+            <use xlink:href="#img-1dd3a4e8-1174" x="52.05" y="14.33" id="img-1dd3a4e8-1175"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1176">
+            <use xlink:href="#img-1dd3a4e8-1177" x="50.75" y="12.29" id="img-1dd3a4e8-1178"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1179">
+            <use xlink:href="#img-1dd3a4e8-1180" x="49.45" y="11.64" id="img-1dd3a4e8-1181"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1182">
+            <use xlink:href="#img-1dd3a4e8-1183" x="48.15" y="11.67" id="img-1dd3a4e8-1184"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1185">
+            <use xlink:href="#img-1dd3a4e8-1186" x="46.86" y="13.31" id="img-1dd3a4e8-1187"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1188">
+            <use xlink:href="#img-1dd3a4e8-1189" x="45.56" y="12.55" id="img-1dd3a4e8-1190"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1191">
+            <use xlink:href="#img-1dd3a4e8-1192" x="44.26" y="14.63" id="img-1dd3a4e8-1193"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1194">
+            <use xlink:href="#img-1dd3a4e8-1195" x="42.96" y="12.09" id="img-1dd3a4e8-1196"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1197">
+            <use xlink:href="#img-1dd3a4e8-1198" x="41.66" y="10.88" id="img-1dd3a4e8-1199"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1200">
+            <use xlink:href="#img-1dd3a4e8-1201" x="40.36" y="11.14" id="img-1dd3a4e8-1202"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1203">
+            <use xlink:href="#img-1dd3a4e8-1204" x="39.06" y="16.58" id="img-1dd3a4e8-1205"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1206">
+            <use xlink:href="#img-1dd3a4e8-1207" x="37.76" y="28.32" id="img-1dd3a4e8-1208"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1209">
+            <use xlink:href="#img-1dd3a4e8-1210" x="36.46" y="39.85" id="img-1dd3a4e8-1211"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1212">
+            <use xlink:href="#img-1dd3a4e8-1213" x="35.16" y="45.23" id="img-1dd3a4e8-1214"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1215">
+            <use xlink:href="#img-1dd3a4e8-1216" x="33.86" y="48.26" id="img-1dd3a4e8-1217"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1218">
+            <use xlink:href="#img-1dd3a4e8-1219" x="32.57" y="48.89" id="img-1dd3a4e8-1220"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1221">
+            <use xlink:href="#img-1dd3a4e8-1222" x="31.27" y="48.82" id="img-1dd3a4e8-1223"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1224">
+            <use xlink:href="#img-1dd3a4e8-1225" x="29.97" y="55.59" id="img-1dd3a4e8-1226"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1227">
+            <use xlink:href="#img-1dd3a4e8-1228" x="28.67" y="59.51" id="img-1dd3a4e8-1229"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1230">
+            <use xlink:href="#img-1dd3a4e8-1231" x="27.37" y="71.99" id="img-1dd3a4e8-1232"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1233">
+            <use xlink:href="#img-1dd3a4e8-1234" x="26.07" y="74.84" id="img-1dd3a4e8-1235"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1236">
+            <use xlink:href="#img-1dd3a4e8-1237" x="24.77" y="96.64" id="img-1dd3a4e8-1238"/>
+          </g>
+          <g class="color_średnia" stroke="#FFFFFF" fill="#D4CA3A" id="img-1dd3a4e8-1239">
+            <use xlink:href="#img-1dd3a4e8-1240" x="23.47" y="109.36" id="img-1dd3a4e8-1241"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1242">
+            <use xlink:href="#img-1dd3a4e8-1243" x="283.3" y="10.63" id="img-1dd3a4e8-1244"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1245">
+            <use xlink:href="#img-1dd3a4e8-1246" x="282" y="10.63" id="img-1dd3a4e8-1247"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1248">
+            <use xlink:href="#img-1dd3a4e8-1249" x="280.7" y="10.63" id="img-1dd3a4e8-1250"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1251">
+            <use xlink:href="#img-1dd3a4e8-1252" x="279.4" y="10.63" id="img-1dd3a4e8-1253"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1254">
+            <use xlink:href="#img-1dd3a4e8-1255" x="278.1" y="10.63" id="img-1dd3a4e8-1256"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1257">
+            <use xlink:href="#img-1dd3a4e8-1258" x="276.8" y="10.63" id="img-1dd3a4e8-1259"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1260">
+            <use xlink:href="#img-1dd3a4e8-1261" x="275.5" y="10.63" id="img-1dd3a4e8-1262"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1263">
+            <use xlink:href="#img-1dd3a4e8-1264" x="274.2" y="10.63" id="img-1dd3a4e8-1265"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1266">
+            <use xlink:href="#img-1dd3a4e8-1267" x="272.9" y="10.63" id="img-1dd3a4e8-1268"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1269">
+            <use xlink:href="#img-1dd3a4e8-1270" x="271.6" y="10.63" id="img-1dd3a4e8-1271"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1272">
+            <use xlink:href="#img-1dd3a4e8-1273" x="270.31" y="10.63" id="img-1dd3a4e8-1274"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1275">
+            <use xlink:href="#img-1dd3a4e8-1276" x="269.01" y="10.63" id="img-1dd3a4e8-1277"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1278">
+            <use xlink:href="#img-1dd3a4e8-1279" x="267.71" y="10.63" id="img-1dd3a4e8-1280"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1281">
+            <use xlink:href="#img-1dd3a4e8-1282" x="266.41" y="10.63" id="img-1dd3a4e8-1283"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1284">
+            <use xlink:href="#img-1dd3a4e8-1285" x="265.11" y="10.63" id="img-1dd3a4e8-1286"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1287">
+            <use xlink:href="#img-1dd3a4e8-1288" x="263.81" y="10.63" id="img-1dd3a4e8-1289"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1290">
+            <use xlink:href="#img-1dd3a4e8-1291" x="262.51" y="10.63" id="img-1dd3a4e8-1292"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1293">
+            <use xlink:href="#img-1dd3a4e8-1294" x="261.21" y="10.63" id="img-1dd3a4e8-1295"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1296">
+            <use xlink:href="#img-1dd3a4e8-1297" x="259.91" y="10.63" id="img-1dd3a4e8-1298"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1299">
+            <use xlink:href="#img-1dd3a4e8-1300" x="258.61" y="10.63" id="img-1dd3a4e8-1301"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1302">
+            <use xlink:href="#img-1dd3a4e8-1303" x="257.31" y="10.63" id="img-1dd3a4e8-1304"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1305">
+            <use xlink:href="#img-1dd3a4e8-1306" x="256.01" y="10.63" id="img-1dd3a4e8-1307"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1308">
+            <use xlink:href="#img-1dd3a4e8-1309" x="254.72" y="10.63" id="img-1dd3a4e8-1310"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1311">
+            <use xlink:href="#img-1dd3a4e8-1312" x="253.42" y="10.63" id="img-1dd3a4e8-1313"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1314">
+            <use xlink:href="#img-1dd3a4e8-1315" x="252.12" y="10.63" id="img-1dd3a4e8-1316"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1317">
+            <use xlink:href="#img-1dd3a4e8-1318" x="250.82" y="10.63" id="img-1dd3a4e8-1319"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1320">
+            <use xlink:href="#img-1dd3a4e8-1321" x="249.52" y="10.63" id="img-1dd3a4e8-1322"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1323">
+            <use xlink:href="#img-1dd3a4e8-1324" x="248.22" y="10.63" id="img-1dd3a4e8-1325"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1326">
+            <use xlink:href="#img-1dd3a4e8-1327" x="246.92" y="10.63" id="img-1dd3a4e8-1328"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1329">
+            <use xlink:href="#img-1dd3a4e8-1330" x="245.62" y="10.63" id="img-1dd3a4e8-1331"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1332">
+            <use xlink:href="#img-1dd3a4e8-1333" x="244.32" y="10.63" id="img-1dd3a4e8-1334"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1335">
+            <use xlink:href="#img-1dd3a4e8-1336" x="243.02" y="10.63" id="img-1dd3a4e8-1337"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1338">
+            <use xlink:href="#img-1dd3a4e8-1339" x="241.72" y="10.63" id="img-1dd3a4e8-1340"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1341">
+            <use xlink:href="#img-1dd3a4e8-1342" x="240.43" y="10.63" id="img-1dd3a4e8-1343"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1344">
+            <use xlink:href="#img-1dd3a4e8-1345" x="239.13" y="10.63" id="img-1dd3a4e8-1346"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1347">
+            <use xlink:href="#img-1dd3a4e8-1348" x="237.83" y="10.63" id="img-1dd3a4e8-1349"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1350">
+            <use xlink:href="#img-1dd3a4e8-1351" x="236.53" y="10.63" id="img-1dd3a4e8-1352"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1353">
+            <use xlink:href="#img-1dd3a4e8-1354" x="235.23" y="10.63" id="img-1dd3a4e8-1355"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1356">
+            <use xlink:href="#img-1dd3a4e8-1357" x="233.93" y="10.63" id="img-1dd3a4e8-1358"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1359">
+            <use xlink:href="#img-1dd3a4e8-1360" x="232.63" y="10.63" id="img-1dd3a4e8-1361"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1362">
+            <use xlink:href="#img-1dd3a4e8-1363" x="231.33" y="10.63" id="img-1dd3a4e8-1364"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1365">
+            <use xlink:href="#img-1dd3a4e8-1366" x="230.03" y="10.63" id="img-1dd3a4e8-1367"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1368">
+            <use xlink:href="#img-1dd3a4e8-1369" x="228.73" y="10.63" id="img-1dd3a4e8-1370"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1371">
+            <use xlink:href="#img-1dd3a4e8-1372" x="227.43" y="10.63" id="img-1dd3a4e8-1373"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1374">
+            <use xlink:href="#img-1dd3a4e8-1375" x="226.14" y="10.63" id="img-1dd3a4e8-1376"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1377">
+            <use xlink:href="#img-1dd3a4e8-1378" x="224.84" y="10.63" id="img-1dd3a4e8-1379"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1380">
+            <use xlink:href="#img-1dd3a4e8-1381" x="223.54" y="10.63" id="img-1dd3a4e8-1382"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1383">
+            <use xlink:href="#img-1dd3a4e8-1384" x="222.24" y="10.63" id="img-1dd3a4e8-1385"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1386">
+            <use xlink:href="#img-1dd3a4e8-1387" x="220.94" y="10.63" id="img-1dd3a4e8-1388"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1389">
+            <use xlink:href="#img-1dd3a4e8-1390" x="219.64" y="10.63" id="img-1dd3a4e8-1391"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1392">
+            <use xlink:href="#img-1dd3a4e8-1393" x="218.34" y="10.63" id="img-1dd3a4e8-1394"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1395">
+            <use xlink:href="#img-1dd3a4e8-1396" x="217.04" y="10.63" id="img-1dd3a4e8-1397"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1398">
+            <use xlink:href="#img-1dd3a4e8-1399" x="215.74" y="10.63" id="img-1dd3a4e8-1400"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1401">
+            <use xlink:href="#img-1dd3a4e8-1402" x="214.44" y="10.63" id="img-1dd3a4e8-1403"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1404">
+            <use xlink:href="#img-1dd3a4e8-1405" x="213.14" y="10.63" id="img-1dd3a4e8-1406"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1407">
+            <use xlink:href="#img-1dd3a4e8-1408" x="211.84" y="10.63" id="img-1dd3a4e8-1409"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1410">
+            <use xlink:href="#img-1dd3a4e8-1411" x="210.55" y="10.63" id="img-1dd3a4e8-1412"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1413">
+            <use xlink:href="#img-1dd3a4e8-1414" x="209.25" y="10.63" id="img-1dd3a4e8-1415"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1416">
+            <use xlink:href="#img-1dd3a4e8-1417" x="207.95" y="10.63" id="img-1dd3a4e8-1418"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1419">
+            <use xlink:href="#img-1dd3a4e8-1420" x="206.65" y="10.63" id="img-1dd3a4e8-1421"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1422">
+            <use xlink:href="#img-1dd3a4e8-1423" x="205.35" y="10.63" id="img-1dd3a4e8-1424"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1425">
+            <use xlink:href="#img-1dd3a4e8-1426" x="204.05" y="10.63" id="img-1dd3a4e8-1427"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1428">
+            <use xlink:href="#img-1dd3a4e8-1429" x="202.75" y="10.63" id="img-1dd3a4e8-1430"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1431">
+            <use xlink:href="#img-1dd3a4e8-1432" x="201.45" y="10.63" id="img-1dd3a4e8-1433"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1434">
+            <use xlink:href="#img-1dd3a4e8-1435" x="200.15" y="10.63" id="img-1dd3a4e8-1436"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1437">
+            <use xlink:href="#img-1dd3a4e8-1438" x="198.85" y="10.63" id="img-1dd3a4e8-1439"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1440">
+            <use xlink:href="#img-1dd3a4e8-1441" x="197.55" y="10.63" id="img-1dd3a4e8-1442"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1443">
+            <use xlink:href="#img-1dd3a4e8-1444" x="196.26" y="10.63" id="img-1dd3a4e8-1445"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1446">
+            <use xlink:href="#img-1dd3a4e8-1447" x="194.96" y="10.63" id="img-1dd3a4e8-1448"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1449">
+            <use xlink:href="#img-1dd3a4e8-1450" x="193.66" y="10.63" id="img-1dd3a4e8-1451"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1452">
+            <use xlink:href="#img-1dd3a4e8-1453" x="192.36" y="10.63" id="img-1dd3a4e8-1454"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1455">
+            <use xlink:href="#img-1dd3a4e8-1456" x="191.06" y="10.63" id="img-1dd3a4e8-1457"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1458">
+            <use xlink:href="#img-1dd3a4e8-1459" x="189.76" y="10.63" id="img-1dd3a4e8-1460"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1461">
+            <use xlink:href="#img-1dd3a4e8-1462" x="188.46" y="10.63" id="img-1dd3a4e8-1463"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1464">
+            <use xlink:href="#img-1dd3a4e8-1465" x="187.16" y="10.63" id="img-1dd3a4e8-1466"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1467">
+            <use xlink:href="#img-1dd3a4e8-1468" x="185.86" y="10.63" id="img-1dd3a4e8-1469"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1470">
+            <use xlink:href="#img-1dd3a4e8-1471" x="184.56" y="10.63" id="img-1dd3a4e8-1472"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1473">
+            <use xlink:href="#img-1dd3a4e8-1474" x="183.26" y="10.63" id="img-1dd3a4e8-1475"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1476">
+            <use xlink:href="#img-1dd3a4e8-1477" x="181.96" y="10.63" id="img-1dd3a4e8-1478"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1479">
+            <use xlink:href="#img-1dd3a4e8-1480" x="180.67" y="10.63" id="img-1dd3a4e8-1481"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1482">
+            <use xlink:href="#img-1dd3a4e8-1483" x="179.37" y="10.63" id="img-1dd3a4e8-1484"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1485">
+            <use xlink:href="#img-1dd3a4e8-1486" x="178.07" y="10.63" id="img-1dd3a4e8-1487"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1488">
+            <use xlink:href="#img-1dd3a4e8-1489" x="176.77" y="10.63" id="img-1dd3a4e8-1490"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1491">
+            <use xlink:href="#img-1dd3a4e8-1492" x="175.47" y="10.63" id="img-1dd3a4e8-1493"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1494">
+            <use xlink:href="#img-1dd3a4e8-1495" x="174.17" y="10.63" id="img-1dd3a4e8-1496"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1497">
+            <use xlink:href="#img-1dd3a4e8-1498" x="172.87" y="10.63" id="img-1dd3a4e8-1499"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1500">
+            <use xlink:href="#img-1dd3a4e8-1501" x="171.57" y="10.63" id="img-1dd3a4e8-1502"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1503">
+            <use xlink:href="#img-1dd3a4e8-1504" x="170.27" y="10.63" id="img-1dd3a4e8-1505"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1506">
+            <use xlink:href="#img-1dd3a4e8-1507" x="168.97" y="10.63" id="img-1dd3a4e8-1508"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1509">
+            <use xlink:href="#img-1dd3a4e8-1510" x="167.67" y="10.63" id="img-1dd3a4e8-1511"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1512">
+            <use xlink:href="#img-1dd3a4e8-1513" x="166.38" y="10.63" id="img-1dd3a4e8-1514"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1515">
+            <use xlink:href="#img-1dd3a4e8-1516" x="165.08" y="10.63" id="img-1dd3a4e8-1517"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1518">
+            <use xlink:href="#img-1dd3a4e8-1519" x="163.78" y="10.63" id="img-1dd3a4e8-1520"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1521">
+            <use xlink:href="#img-1dd3a4e8-1522" x="162.48" y="10.63" id="img-1dd3a4e8-1523"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1524">
+            <use xlink:href="#img-1dd3a4e8-1525" x="161.18" y="10.63" id="img-1dd3a4e8-1526"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1527">
+            <use xlink:href="#img-1dd3a4e8-1528" x="159.88" y="10.63" id="img-1dd3a4e8-1529"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1530">
+            <use xlink:href="#img-1dd3a4e8-1531" x="158.58" y="10.63" id="img-1dd3a4e8-1532"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1533">
+            <use xlink:href="#img-1dd3a4e8-1534" x="157.28" y="10.63" id="img-1dd3a4e8-1535"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1536">
+            <use xlink:href="#img-1dd3a4e8-1537" x="155.98" y="10.63" id="img-1dd3a4e8-1538"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1539">
+            <use xlink:href="#img-1dd3a4e8-1540" x="154.68" y="10.63" id="img-1dd3a4e8-1541"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1542">
+            <use xlink:href="#img-1dd3a4e8-1543" x="153.38" y="10.63" id="img-1dd3a4e8-1544"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1545">
+            <use xlink:href="#img-1dd3a4e8-1546" x="152.08" y="10.63" id="img-1dd3a4e8-1547"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1548">
+            <use xlink:href="#img-1dd3a4e8-1549" x="150.79" y="10.63" id="img-1dd3a4e8-1550"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1551">
+            <use xlink:href="#img-1dd3a4e8-1552" x="149.49" y="10.63" id="img-1dd3a4e8-1553"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1554">
+            <use xlink:href="#img-1dd3a4e8-1555" x="148.19" y="10.63" id="img-1dd3a4e8-1556"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1557">
+            <use xlink:href="#img-1dd3a4e8-1558" x="146.89" y="10.63" id="img-1dd3a4e8-1559"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1560">
+            <use xlink:href="#img-1dd3a4e8-1561" x="145.59" y="10.63" id="img-1dd3a4e8-1562"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1563">
+            <use xlink:href="#img-1dd3a4e8-1564" x="144.29" y="10.63" id="img-1dd3a4e8-1565"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1566">
+            <use xlink:href="#img-1dd3a4e8-1567" x="142.99" y="10.63" id="img-1dd3a4e8-1568"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1569">
+            <use xlink:href="#img-1dd3a4e8-1570" x="141.69" y="10.63" id="img-1dd3a4e8-1571"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1572">
+            <use xlink:href="#img-1dd3a4e8-1573" x="140.39" y="10.63" id="img-1dd3a4e8-1574"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1575">
+            <use xlink:href="#img-1dd3a4e8-1576" x="139.09" y="10.63" id="img-1dd3a4e8-1577"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1578">
+            <use xlink:href="#img-1dd3a4e8-1579" x="137.79" y="10.63" id="img-1dd3a4e8-1580"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1581">
+            <use xlink:href="#img-1dd3a4e8-1582" x="136.5" y="10.63" id="img-1dd3a4e8-1583"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1584">
+            <use xlink:href="#img-1dd3a4e8-1585" x="135.2" y="10.63" id="img-1dd3a4e8-1586"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1587">
+            <use xlink:href="#img-1dd3a4e8-1588" x="133.9" y="10.63" id="img-1dd3a4e8-1589"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1590">
+            <use xlink:href="#img-1dd3a4e8-1591" x="132.6" y="10.63" id="img-1dd3a4e8-1592"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1593">
+            <use xlink:href="#img-1dd3a4e8-1594" x="131.3" y="10.63" id="img-1dd3a4e8-1595"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1596">
+            <use xlink:href="#img-1dd3a4e8-1597" x="130" y="10.63" id="img-1dd3a4e8-1598"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1599">
+            <use xlink:href="#img-1dd3a4e8-1600" x="128.7" y="10.63" id="img-1dd3a4e8-1601"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1602">
+            <use xlink:href="#img-1dd3a4e8-1603" x="127.4" y="10.63" id="img-1dd3a4e8-1604"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1605">
+            <use xlink:href="#img-1dd3a4e8-1606" x="126.1" y="10.63" id="img-1dd3a4e8-1607"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1608">
+            <use xlink:href="#img-1dd3a4e8-1609" x="124.8" y="10.63" id="img-1dd3a4e8-1610"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1611">
+            <use xlink:href="#img-1dd3a4e8-1612" x="123.5" y="10.63" id="img-1dd3a4e8-1613"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1614">
+            <use xlink:href="#img-1dd3a4e8-1615" x="122.2" y="10.63" id="img-1dd3a4e8-1616"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1617">
+            <use xlink:href="#img-1dd3a4e8-1618" x="120.91" y="10.63" id="img-1dd3a4e8-1619"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1620">
+            <use xlink:href="#img-1dd3a4e8-1621" x="119.61" y="10.63" id="img-1dd3a4e8-1622"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1623">
+            <use xlink:href="#img-1dd3a4e8-1624" x="118.31" y="10.63" id="img-1dd3a4e8-1625"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1626">
+            <use xlink:href="#img-1dd3a4e8-1627" x="117.01" y="10.63" id="img-1dd3a4e8-1628"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1629">
+            <use xlink:href="#img-1dd3a4e8-1630" x="115.71" y="10.63" id="img-1dd3a4e8-1631"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1632">
+            <use xlink:href="#img-1dd3a4e8-1633" x="114.41" y="10.63" id="img-1dd3a4e8-1634"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1635">
+            <use xlink:href="#img-1dd3a4e8-1636" x="113.11" y="10.63" id="img-1dd3a4e8-1637"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1638">
+            <use xlink:href="#img-1dd3a4e8-1639" x="111.81" y="10.63" id="img-1dd3a4e8-1640"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1641">
+            <use xlink:href="#img-1dd3a4e8-1642" x="110.51" y="10.63" id="img-1dd3a4e8-1643"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1644">
+            <use xlink:href="#img-1dd3a4e8-1645" x="109.21" y="10.63" id="img-1dd3a4e8-1646"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1647">
+            <use xlink:href="#img-1dd3a4e8-1648" x="107.91" y="10.63" id="img-1dd3a4e8-1649"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1650">
+            <use xlink:href="#img-1dd3a4e8-1651" x="106.62" y="10.63" id="img-1dd3a4e8-1652"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1653">
+            <use xlink:href="#img-1dd3a4e8-1654" x="105.32" y="10.63" id="img-1dd3a4e8-1655"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1656">
+            <use xlink:href="#img-1dd3a4e8-1657" x="104.02" y="10.63" id="img-1dd3a4e8-1658"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1659">
+            <use xlink:href="#img-1dd3a4e8-1660" x="102.72" y="10.63" id="img-1dd3a4e8-1661"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1662">
+            <use xlink:href="#img-1dd3a4e8-1663" x="101.42" y="10.63" id="img-1dd3a4e8-1664"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1665">
+            <use xlink:href="#img-1dd3a4e8-1666" x="100.12" y="10.63" id="img-1dd3a4e8-1667"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1668">
+            <use xlink:href="#img-1dd3a4e8-1669" x="98.82" y="10.63" id="img-1dd3a4e8-1670"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1671">
+            <use xlink:href="#img-1dd3a4e8-1672" x="97.52" y="10.63" id="img-1dd3a4e8-1673"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1674">
+            <use xlink:href="#img-1dd3a4e8-1675" x="96.22" y="10.63" id="img-1dd3a4e8-1676"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1677">
+            <use xlink:href="#img-1dd3a4e8-1678" x="94.92" y="10.63" id="img-1dd3a4e8-1679"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1680">
+            <use xlink:href="#img-1dd3a4e8-1681" x="93.62" y="10.63" id="img-1dd3a4e8-1682"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1683">
+            <use xlink:href="#img-1dd3a4e8-1684" x="92.33" y="10.63" id="img-1dd3a4e8-1685"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1686">
+            <use xlink:href="#img-1dd3a4e8-1687" x="91.03" y="10.63" id="img-1dd3a4e8-1688"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1689">
+            <use xlink:href="#img-1dd3a4e8-1690" x="89.73" y="10.63" id="img-1dd3a4e8-1691"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1692">
+            <use xlink:href="#img-1dd3a4e8-1693" x="88.43" y="10.63" id="img-1dd3a4e8-1694"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1695">
+            <use xlink:href="#img-1dd3a4e8-1696" x="87.13" y="10.63" id="img-1dd3a4e8-1697"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1698">
+            <use xlink:href="#img-1dd3a4e8-1699" x="85.83" y="10.63" id="img-1dd3a4e8-1700"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1701">
+            <use xlink:href="#img-1dd3a4e8-1702" x="84.53" y="10.63" id="img-1dd3a4e8-1703"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1704">
+            <use xlink:href="#img-1dd3a4e8-1705" x="83.23" y="10.63" id="img-1dd3a4e8-1706"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1707">
+            <use xlink:href="#img-1dd3a4e8-1708" x="81.93" y="10.63" id="img-1dd3a4e8-1709"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1710">
+            <use xlink:href="#img-1dd3a4e8-1711" x="80.63" y="10.63" id="img-1dd3a4e8-1712"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1713">
+            <use xlink:href="#img-1dd3a4e8-1714" x="79.33" y="10.63" id="img-1dd3a4e8-1715"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1716">
+            <use xlink:href="#img-1dd3a4e8-1717" x="78.03" y="10.63" id="img-1dd3a4e8-1718"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1719">
+            <use xlink:href="#img-1dd3a4e8-1720" x="76.74" y="10.63" id="img-1dd3a4e8-1721"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1722">
+            <use xlink:href="#img-1dd3a4e8-1723" x="75.44" y="10.63" id="img-1dd3a4e8-1724"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1725">
+            <use xlink:href="#img-1dd3a4e8-1726" x="74.14" y="10.63" id="img-1dd3a4e8-1727"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1728">
+            <use xlink:href="#img-1dd3a4e8-1729" x="72.84" y="10.63" id="img-1dd3a4e8-1730"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1731">
+            <use xlink:href="#img-1dd3a4e8-1732" x="71.54" y="10.63" id="img-1dd3a4e8-1733"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1734">
+            <use xlink:href="#img-1dd3a4e8-1735" x="70.24" y="10.63" id="img-1dd3a4e8-1736"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1737">
+            <use xlink:href="#img-1dd3a4e8-1738" x="68.94" y="10.63" id="img-1dd3a4e8-1739"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1740">
+            <use xlink:href="#img-1dd3a4e8-1741" x="67.64" y="10.63" id="img-1dd3a4e8-1742"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1743">
+            <use xlink:href="#img-1dd3a4e8-1744" x="66.34" y="10.63" id="img-1dd3a4e8-1745"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1746">
+            <use xlink:href="#img-1dd3a4e8-1747" x="65.04" y="10.63" id="img-1dd3a4e8-1748"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1749">
+            <use xlink:href="#img-1dd3a4e8-1750" x="63.74" y="10.63" id="img-1dd3a4e8-1751"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1752">
+            <use xlink:href="#img-1dd3a4e8-1753" x="62.45" y="10.63" id="img-1dd3a4e8-1754"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1755">
+            <use xlink:href="#img-1dd3a4e8-1756" x="61.15" y="10.63" id="img-1dd3a4e8-1757"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1758">
+            <use xlink:href="#img-1dd3a4e8-1759" x="59.85" y="10.63" id="img-1dd3a4e8-1760"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1761">
+            <use xlink:href="#img-1dd3a4e8-1762" x="58.55" y="10.63" id="img-1dd3a4e8-1763"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1764">
+            <use xlink:href="#img-1dd3a4e8-1765" x="57.25" y="10.63" id="img-1dd3a4e8-1766"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1767">
+            <use xlink:href="#img-1dd3a4e8-1768" x="55.95" y="10.63" id="img-1dd3a4e8-1769"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1770">
+            <use xlink:href="#img-1dd3a4e8-1771" x="54.65" y="10.63" id="img-1dd3a4e8-1772"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1773">
+            <use xlink:href="#img-1dd3a4e8-1774" x="53.35" y="10.63" id="img-1dd3a4e8-1775"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1776">
+            <use xlink:href="#img-1dd3a4e8-1777" x="52.05" y="10.63" id="img-1dd3a4e8-1778"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1779">
+            <use xlink:href="#img-1dd3a4e8-1780" x="50.75" y="10.63" id="img-1dd3a4e8-1781"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1782">
+            <use xlink:href="#img-1dd3a4e8-1783" x="49.45" y="10.63" id="img-1dd3a4e8-1784"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1785">
+            <use xlink:href="#img-1dd3a4e8-1786" x="48.15" y="10.63" id="img-1dd3a4e8-1787"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1788">
+            <use xlink:href="#img-1dd3a4e8-1789" x="46.86" y="10.63" id="img-1dd3a4e8-1790"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1791">
+            <use xlink:href="#img-1dd3a4e8-1792" x="45.56" y="10.63" id="img-1dd3a4e8-1793"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1794">
+            <use xlink:href="#img-1dd3a4e8-1795" x="44.26" y="10.63" id="img-1dd3a4e8-1796"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1797">
+            <use xlink:href="#img-1dd3a4e8-1798" x="42.96" y="10.63" id="img-1dd3a4e8-1799"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1800">
+            <use xlink:href="#img-1dd3a4e8-1801" x="41.66" y="10.63" id="img-1dd3a4e8-1802"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1803">
+            <use xlink:href="#img-1dd3a4e8-1804" x="40.36" y="10.63" id="img-1dd3a4e8-1805"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1806">
+            <use xlink:href="#img-1dd3a4e8-1807" x="39.06" y="10.63" id="img-1dd3a4e8-1808"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1809">
+            <use xlink:href="#img-1dd3a4e8-1810" x="37.76" y="10.63" id="img-1dd3a4e8-1811"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1812">
+            <use xlink:href="#img-1dd3a4e8-1813" x="36.46" y="10.63" id="img-1dd3a4e8-1814"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1815">
+            <use xlink:href="#img-1dd3a4e8-1816" x="35.16" y="10.63" id="img-1dd3a4e8-1817"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1818">
+            <use xlink:href="#img-1dd3a4e8-1819" x="33.86" y="10.63" id="img-1dd3a4e8-1820"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1821">
+            <use xlink:href="#img-1dd3a4e8-1822" x="32.57" y="10.63" id="img-1dd3a4e8-1823"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1824">
+            <use xlink:href="#img-1dd3a4e8-1825" x="31.27" y="10.63" id="img-1dd3a4e8-1826"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1827">
+            <use xlink:href="#img-1dd3a4e8-1828" x="29.97" y="16.45" id="img-1dd3a4e8-1829"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1830">
+            <use xlink:href="#img-1dd3a4e8-1831" x="28.67" y="10.63" id="img-1dd3a4e8-1832"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1833">
+            <use xlink:href="#img-1dd3a4e8-1834" x="27.37" y="24.45" id="img-1dd3a4e8-1835"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1836">
+            <use xlink:href="#img-1dd3a4e8-1837" x="26.07" y="24.45" id="img-1dd3a4e8-1838"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1839">
+            <use xlink:href="#img-1dd3a4e8-1840" x="24.77" y="24.45" id="img-1dd3a4e8-1841"/>
+          </g>
+          <g class="color_największa" stroke="#FFFFFF" fill="#00BFFF" id="img-1dd3a4e8-1842">
+            <use xlink:href="#img-1dd3a4e8-1843" x="23.47" y="52.07" id="img-1dd3a4e8-1844"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-1dd3a4e8-1845">
+    <text x="19.17" y="217.1" text-anchor="end" dy="0.35em" id="img-1dd3a4e8-1846">0</text>
+    <text x="19.17" y="144.4" text-anchor="end" dy="0.35em" id="img-1dd3a4e8-1847">100</text>
+    <text x="19.17" y="71.7" text-anchor="end" dy="0.35em" id="img-1dd3a4e8-1848">200</text>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-1dd3a4e8-1849">
+    <text x="8.94" y="110.05" text-anchor="middle" dy="0.35em" transform="rotate(-90, 8.94, 112.05)" id="img-1dd3a4e8-1850">Wartość rozwiązania</text>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-1dd3a4e8-15">
+  <path d="M20.17,5 L 291.79 5 291.79 219.1 20.17 219.1" />
+</clipPath>
+  <g id="img-1dd3a4e8-37">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1851"/>
+  </g>
+  <g id="img-1dd3a4e8-40">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1852"/>
+  </g>
+  <g id="img-1dd3a4e8-43">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1853"/>
+  </g>
+  <g id="img-1dd3a4e8-46">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1854"/>
+  </g>
+  <g id="img-1dd3a4e8-49">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1855"/>
+  </g>
+  <g id="img-1dd3a4e8-52">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1856"/>
+  </g>
+  <g id="img-1dd3a4e8-55">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1857"/>
+  </g>
+  <g id="img-1dd3a4e8-58">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1858"/>
+  </g>
+  <g id="img-1dd3a4e8-61">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1859"/>
+  </g>
+  <g id="img-1dd3a4e8-64">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1860"/>
+  </g>
+  <g id="img-1dd3a4e8-67">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1861"/>
+  </g>
+  <g id="img-1dd3a4e8-70">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1862"/>
+  </g>
+  <g id="img-1dd3a4e8-73">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1863"/>
+  </g>
+  <g id="img-1dd3a4e8-76">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1864"/>
+  </g>
+  <g id="img-1dd3a4e8-79">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1865"/>
+  </g>
+  <g id="img-1dd3a4e8-82">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1866"/>
+  </g>
+  <g id="img-1dd3a4e8-85">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1867"/>
+  </g>
+  <g id="img-1dd3a4e8-88">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1868"/>
+  </g>
+  <g id="img-1dd3a4e8-91">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1869"/>
+  </g>
+  <g id="img-1dd3a4e8-94">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1870"/>
+  </g>
+  <g id="img-1dd3a4e8-97">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1871"/>
+  </g>
+  <g id="img-1dd3a4e8-100">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1872"/>
+  </g>
+  <g id="img-1dd3a4e8-103">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1873"/>
+  </g>
+  <g id="img-1dd3a4e8-106">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1874"/>
+  </g>
+  <g id="img-1dd3a4e8-109">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1875"/>
+  </g>
+  <g id="img-1dd3a4e8-112">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1876"/>
+  </g>
+  <g id="img-1dd3a4e8-115">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1877"/>
+  </g>
+  <g id="img-1dd3a4e8-118">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1878"/>
+  </g>
+  <g id="img-1dd3a4e8-121">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1879"/>
+  </g>
+  <g id="img-1dd3a4e8-124">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1880"/>
+  </g>
+  <g id="img-1dd3a4e8-127">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1881"/>
+  </g>
+  <g id="img-1dd3a4e8-130">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1882"/>
+  </g>
+  <g id="img-1dd3a4e8-133">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1883"/>
+  </g>
+  <g id="img-1dd3a4e8-136">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1884"/>
+  </g>
+  <g id="img-1dd3a4e8-139">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1885"/>
+  </g>
+  <g id="img-1dd3a4e8-142">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1886"/>
+  </g>
+  <g id="img-1dd3a4e8-145">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1887"/>
+  </g>
+  <g id="img-1dd3a4e8-148">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1888"/>
+  </g>
+  <g id="img-1dd3a4e8-151">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1889"/>
+  </g>
+  <g id="img-1dd3a4e8-154">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1890"/>
+  </g>
+  <g id="img-1dd3a4e8-157">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1891"/>
+  </g>
+  <g id="img-1dd3a4e8-160">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1892"/>
+  </g>
+  <g id="img-1dd3a4e8-163">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1893"/>
+  </g>
+  <g id="img-1dd3a4e8-166">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1894"/>
+  </g>
+  <g id="img-1dd3a4e8-169">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1895"/>
+  </g>
+  <g id="img-1dd3a4e8-172">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1896"/>
+  </g>
+  <g id="img-1dd3a4e8-175">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1897"/>
+  </g>
+  <g id="img-1dd3a4e8-178">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1898"/>
+  </g>
+  <g id="img-1dd3a4e8-181">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1899"/>
+  </g>
+  <g id="img-1dd3a4e8-184">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1900"/>
+  </g>
+  <g id="img-1dd3a4e8-187">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1901"/>
+  </g>
+  <g id="img-1dd3a4e8-190">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1902"/>
+  </g>
+  <g id="img-1dd3a4e8-193">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1903"/>
+  </g>
+  <g id="img-1dd3a4e8-196">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1904"/>
+  </g>
+  <g id="img-1dd3a4e8-199">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1905"/>
+  </g>
+  <g id="img-1dd3a4e8-202">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1906"/>
+  </g>
+  <g id="img-1dd3a4e8-205">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1907"/>
+  </g>
+  <g id="img-1dd3a4e8-208">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1908"/>
+  </g>
+  <g id="img-1dd3a4e8-211">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1909"/>
+  </g>
+  <g id="img-1dd3a4e8-214">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1910"/>
+  </g>
+  <g id="img-1dd3a4e8-217">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1911"/>
+  </g>
+  <g id="img-1dd3a4e8-220">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1912"/>
+  </g>
+  <g id="img-1dd3a4e8-223">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1913"/>
+  </g>
+  <g id="img-1dd3a4e8-226">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1914"/>
+  </g>
+  <g id="img-1dd3a4e8-229">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1915"/>
+  </g>
+  <g id="img-1dd3a4e8-232">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1916"/>
+  </g>
+  <g id="img-1dd3a4e8-235">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1917"/>
+  </g>
+  <g id="img-1dd3a4e8-238">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1918"/>
+  </g>
+  <g id="img-1dd3a4e8-241">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1919"/>
+  </g>
+  <g id="img-1dd3a4e8-244">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1920"/>
+  </g>
+  <g id="img-1dd3a4e8-247">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1921"/>
+  </g>
+  <g id="img-1dd3a4e8-250">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1922"/>
+  </g>
+  <g id="img-1dd3a4e8-253">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1923"/>
+  </g>
+  <g id="img-1dd3a4e8-256">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1924"/>
+  </g>
+  <g id="img-1dd3a4e8-259">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1925"/>
+  </g>
+  <g id="img-1dd3a4e8-262">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1926"/>
+  </g>
+  <g id="img-1dd3a4e8-265">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1927"/>
+  </g>
+  <g id="img-1dd3a4e8-268">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1928"/>
+  </g>
+  <g id="img-1dd3a4e8-271">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1929"/>
+  </g>
+  <g id="img-1dd3a4e8-274">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1930"/>
+  </g>
+  <g id="img-1dd3a4e8-277">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1931"/>
+  </g>
+  <g id="img-1dd3a4e8-280">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1932"/>
+  </g>
+  <g id="img-1dd3a4e8-283">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1933"/>
+  </g>
+  <g id="img-1dd3a4e8-286">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1934"/>
+  </g>
+  <g id="img-1dd3a4e8-289">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1935"/>
+  </g>
+  <g id="img-1dd3a4e8-292">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1936"/>
+  </g>
+  <g id="img-1dd3a4e8-295">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1937"/>
+  </g>
+  <g id="img-1dd3a4e8-298">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1938"/>
+  </g>
+  <g id="img-1dd3a4e8-301">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1939"/>
+  </g>
+  <g id="img-1dd3a4e8-304">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1940"/>
+  </g>
+  <g id="img-1dd3a4e8-307">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1941"/>
+  </g>
+  <g id="img-1dd3a4e8-310">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1942"/>
+  </g>
+  <g id="img-1dd3a4e8-313">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1943"/>
+  </g>
+  <g id="img-1dd3a4e8-316">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1944"/>
+  </g>
+  <g id="img-1dd3a4e8-319">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1945"/>
+  </g>
+  <g id="img-1dd3a4e8-322">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1946"/>
+  </g>
+  <g id="img-1dd3a4e8-325">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1947"/>
+  </g>
+  <g id="img-1dd3a4e8-328">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1948"/>
+  </g>
+  <g id="img-1dd3a4e8-331">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1949"/>
+  </g>
+  <g id="img-1dd3a4e8-334">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1950"/>
+  </g>
+  <g id="img-1dd3a4e8-337">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1951"/>
+  </g>
+  <g id="img-1dd3a4e8-340">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1952"/>
+  </g>
+  <g id="img-1dd3a4e8-343">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1953"/>
+  </g>
+  <g id="img-1dd3a4e8-346">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1954"/>
+  </g>
+  <g id="img-1dd3a4e8-349">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1955"/>
+  </g>
+  <g id="img-1dd3a4e8-352">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1956"/>
+  </g>
+  <g id="img-1dd3a4e8-355">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1957"/>
+  </g>
+  <g id="img-1dd3a4e8-358">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1958"/>
+  </g>
+  <g id="img-1dd3a4e8-361">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1959"/>
+  </g>
+  <g id="img-1dd3a4e8-364">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1960"/>
+  </g>
+  <g id="img-1dd3a4e8-367">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1961"/>
+  </g>
+  <g id="img-1dd3a4e8-370">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1962"/>
+  </g>
+  <g id="img-1dd3a4e8-373">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1963"/>
+  </g>
+  <g id="img-1dd3a4e8-376">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1964"/>
+  </g>
+  <g id="img-1dd3a4e8-379">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1965"/>
+  </g>
+  <g id="img-1dd3a4e8-382">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1966"/>
+  </g>
+  <g id="img-1dd3a4e8-385">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1967"/>
+  </g>
+  <g id="img-1dd3a4e8-388">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1968"/>
+  </g>
+  <g id="img-1dd3a4e8-391">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1969"/>
+  </g>
+  <g id="img-1dd3a4e8-394">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1970"/>
+  </g>
+  <g id="img-1dd3a4e8-397">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1971"/>
+  </g>
+  <g id="img-1dd3a4e8-400">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1972"/>
+  </g>
+  <g id="img-1dd3a4e8-403">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1973"/>
+  </g>
+  <g id="img-1dd3a4e8-406">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1974"/>
+  </g>
+  <g id="img-1dd3a4e8-409">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1975"/>
+  </g>
+  <g id="img-1dd3a4e8-412">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1976"/>
+  </g>
+  <g id="img-1dd3a4e8-415">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1977"/>
+  </g>
+  <g id="img-1dd3a4e8-418">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1978"/>
+  </g>
+  <g id="img-1dd3a4e8-421">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1979"/>
+  </g>
+  <g id="img-1dd3a4e8-424">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1980"/>
+  </g>
+  <g id="img-1dd3a4e8-427">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1981"/>
+  </g>
+  <g id="img-1dd3a4e8-430">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1982"/>
+  </g>
+  <g id="img-1dd3a4e8-433">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1983"/>
+  </g>
+  <g id="img-1dd3a4e8-436">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1984"/>
+  </g>
+  <g id="img-1dd3a4e8-439">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1985"/>
+  </g>
+  <g id="img-1dd3a4e8-442">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1986"/>
+  </g>
+  <g id="img-1dd3a4e8-445">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1987"/>
+  </g>
+  <g id="img-1dd3a4e8-448">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1988"/>
+  </g>
+  <g id="img-1dd3a4e8-451">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1989"/>
+  </g>
+  <g id="img-1dd3a4e8-454">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1990"/>
+  </g>
+  <g id="img-1dd3a4e8-457">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1991"/>
+  </g>
+  <g id="img-1dd3a4e8-460">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1992"/>
+  </g>
+  <g id="img-1dd3a4e8-463">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1993"/>
+  </g>
+  <g id="img-1dd3a4e8-466">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1994"/>
+  </g>
+  <g id="img-1dd3a4e8-469">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1995"/>
+  </g>
+  <g id="img-1dd3a4e8-472">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1996"/>
+  </g>
+  <g id="img-1dd3a4e8-475">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1997"/>
+  </g>
+  <g id="img-1dd3a4e8-478">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1998"/>
+  </g>
+  <g id="img-1dd3a4e8-481">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-1999"/>
+  </g>
+  <g id="img-1dd3a4e8-484">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2000"/>
+  </g>
+  <g id="img-1dd3a4e8-487">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2001"/>
+  </g>
+  <g id="img-1dd3a4e8-490">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2002"/>
+  </g>
+  <g id="img-1dd3a4e8-493">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2003"/>
+  </g>
+  <g id="img-1dd3a4e8-496">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2004"/>
+  </g>
+  <g id="img-1dd3a4e8-499">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2005"/>
+  </g>
+  <g id="img-1dd3a4e8-502">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2006"/>
+  </g>
+  <g id="img-1dd3a4e8-505">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2007"/>
+  </g>
+  <g id="img-1dd3a4e8-508">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2008"/>
+  </g>
+  <g id="img-1dd3a4e8-511">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2009"/>
+  </g>
+  <g id="img-1dd3a4e8-514">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2010"/>
+  </g>
+  <g id="img-1dd3a4e8-517">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2011"/>
+  </g>
+  <g id="img-1dd3a4e8-520">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2012"/>
+  </g>
+  <g id="img-1dd3a4e8-523">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2013"/>
+  </g>
+  <g id="img-1dd3a4e8-526">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2014"/>
+  </g>
+  <g id="img-1dd3a4e8-529">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2015"/>
+  </g>
+  <g id="img-1dd3a4e8-532">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2016"/>
+  </g>
+  <g id="img-1dd3a4e8-535">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2017"/>
+  </g>
+  <g id="img-1dd3a4e8-538">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2018"/>
+  </g>
+  <g id="img-1dd3a4e8-541">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2019"/>
+  </g>
+  <g id="img-1dd3a4e8-544">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2020"/>
+  </g>
+  <g id="img-1dd3a4e8-547">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2021"/>
+  </g>
+  <g id="img-1dd3a4e8-550">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2022"/>
+  </g>
+  <g id="img-1dd3a4e8-553">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2023"/>
+  </g>
+  <g id="img-1dd3a4e8-556">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2024"/>
+  </g>
+  <g id="img-1dd3a4e8-559">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2025"/>
+  </g>
+  <g id="img-1dd3a4e8-562">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2026"/>
+  </g>
+  <g id="img-1dd3a4e8-565">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2027"/>
+  </g>
+  <g id="img-1dd3a4e8-568">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2028"/>
+  </g>
+  <g id="img-1dd3a4e8-571">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2029"/>
+  </g>
+  <g id="img-1dd3a4e8-574">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2030"/>
+  </g>
+  <g id="img-1dd3a4e8-577">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2031"/>
+  </g>
+  <g id="img-1dd3a4e8-580">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2032"/>
+  </g>
+  <g id="img-1dd3a4e8-583">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2033"/>
+  </g>
+  <g id="img-1dd3a4e8-586">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2034"/>
+  </g>
+  <g id="img-1dd3a4e8-589">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2035"/>
+  </g>
+  <g id="img-1dd3a4e8-592">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2036"/>
+  </g>
+  <g id="img-1dd3a4e8-595">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2037"/>
+  </g>
+  <g id="img-1dd3a4e8-598">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2038"/>
+  </g>
+  <g id="img-1dd3a4e8-601">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2039"/>
+  </g>
+  <g id="img-1dd3a4e8-604">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2040"/>
+  </g>
+  <g id="img-1dd3a4e8-607">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2041"/>
+  </g>
+  <g id="img-1dd3a4e8-610">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2042"/>
+  </g>
+  <g id="img-1dd3a4e8-613">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2043"/>
+  </g>
+  <g id="img-1dd3a4e8-616">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2044"/>
+  </g>
+  <g id="img-1dd3a4e8-619">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2045"/>
+  </g>
+  <g id="img-1dd3a4e8-622">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2046"/>
+  </g>
+  <g id="img-1dd3a4e8-625">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2047"/>
+  </g>
+  <g id="img-1dd3a4e8-628">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2048"/>
+  </g>
+  <g id="img-1dd3a4e8-631">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2049"/>
+  </g>
+  <g id="img-1dd3a4e8-634">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2050"/>
+  </g>
+  <g id="img-1dd3a4e8-637">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2051"/>
+  </g>
+  <g id="img-1dd3a4e8-640">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2052"/>
+  </g>
+  <g id="img-1dd3a4e8-643">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2053"/>
+  </g>
+  <g id="img-1dd3a4e8-646">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2054"/>
+  </g>
+  <g id="img-1dd3a4e8-649">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2055"/>
+  </g>
+  <g id="img-1dd3a4e8-652">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2056"/>
+  </g>
+  <g id="img-1dd3a4e8-655">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2057"/>
+  </g>
+  <g id="img-1dd3a4e8-658">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2058"/>
+  </g>
+  <g id="img-1dd3a4e8-661">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2059"/>
+  </g>
+  <g id="img-1dd3a4e8-664">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2060"/>
+  </g>
+  <g id="img-1dd3a4e8-667">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2061"/>
+  </g>
+  <g id="img-1dd3a4e8-670">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2062"/>
+  </g>
+  <g id="img-1dd3a4e8-673">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2063"/>
+  </g>
+  <g id="img-1dd3a4e8-676">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2064"/>
+  </g>
+  <g id="img-1dd3a4e8-679">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2065"/>
+  </g>
+  <g id="img-1dd3a4e8-682">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2066"/>
+  </g>
+  <g id="img-1dd3a4e8-685">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2067"/>
+  </g>
+  <g id="img-1dd3a4e8-688">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2068"/>
+  </g>
+  <g id="img-1dd3a4e8-691">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2069"/>
+  </g>
+  <g id="img-1dd3a4e8-694">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2070"/>
+  </g>
+  <g id="img-1dd3a4e8-697">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2071"/>
+  </g>
+  <g id="img-1dd3a4e8-700">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2072"/>
+  </g>
+  <g id="img-1dd3a4e8-703">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2073"/>
+  </g>
+  <g id="img-1dd3a4e8-706">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2074"/>
+  </g>
+  <g id="img-1dd3a4e8-709">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2075"/>
+  </g>
+  <g id="img-1dd3a4e8-712">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2076"/>
+  </g>
+  <g id="img-1dd3a4e8-715">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2077"/>
+  </g>
+  <g id="img-1dd3a4e8-718">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2078"/>
+  </g>
+  <g id="img-1dd3a4e8-721">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2079"/>
+  </g>
+  <g id="img-1dd3a4e8-724">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2080"/>
+  </g>
+  <g id="img-1dd3a4e8-727">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2081"/>
+  </g>
+  <g id="img-1dd3a4e8-730">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2082"/>
+  </g>
+  <g id="img-1dd3a4e8-733">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2083"/>
+  </g>
+  <g id="img-1dd3a4e8-736">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2084"/>
+  </g>
+  <g id="img-1dd3a4e8-739">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2085"/>
+  </g>
+  <g id="img-1dd3a4e8-742">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2086"/>
+  </g>
+  <g id="img-1dd3a4e8-745">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2087"/>
+  </g>
+  <g id="img-1dd3a4e8-748">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2088"/>
+  </g>
+  <g id="img-1dd3a4e8-751">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2089"/>
+  </g>
+  <g id="img-1dd3a4e8-754">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2090"/>
+  </g>
+  <g id="img-1dd3a4e8-757">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2091"/>
+  </g>
+  <g id="img-1dd3a4e8-760">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2092"/>
+  </g>
+  <g id="img-1dd3a4e8-763">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2093"/>
+  </g>
+  <g id="img-1dd3a4e8-766">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2094"/>
+  </g>
+  <g id="img-1dd3a4e8-769">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2095"/>
+  </g>
+  <g id="img-1dd3a4e8-772">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2096"/>
+  </g>
+  <g id="img-1dd3a4e8-775">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2097"/>
+  </g>
+  <g id="img-1dd3a4e8-778">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2098"/>
+  </g>
+  <g id="img-1dd3a4e8-781">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2099"/>
+  </g>
+  <g id="img-1dd3a4e8-784">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2100"/>
+  </g>
+  <g id="img-1dd3a4e8-787">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2101"/>
+  </g>
+  <g id="img-1dd3a4e8-790">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2102"/>
+  </g>
+  <g id="img-1dd3a4e8-793">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2103"/>
+  </g>
+  <g id="img-1dd3a4e8-796">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2104"/>
+  </g>
+  <g id="img-1dd3a4e8-799">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2105"/>
+  </g>
+  <g id="img-1dd3a4e8-802">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2106"/>
+  </g>
+  <g id="img-1dd3a4e8-805">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2107"/>
+  </g>
+  <g id="img-1dd3a4e8-808">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2108"/>
+  </g>
+  <g id="img-1dd3a4e8-811">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2109"/>
+  </g>
+  <g id="img-1dd3a4e8-814">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2110"/>
+  </g>
+  <g id="img-1dd3a4e8-817">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2111"/>
+  </g>
+  <g id="img-1dd3a4e8-820">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2112"/>
+  </g>
+  <g id="img-1dd3a4e8-823">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2113"/>
+  </g>
+  <g id="img-1dd3a4e8-826">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2114"/>
+  </g>
+  <g id="img-1dd3a4e8-829">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2115"/>
+  </g>
+  <g id="img-1dd3a4e8-832">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2116"/>
+  </g>
+  <g id="img-1dd3a4e8-835">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2117"/>
+  </g>
+  <g id="img-1dd3a4e8-838">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2118"/>
+  </g>
+  <g id="img-1dd3a4e8-841">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2119"/>
+  </g>
+  <g id="img-1dd3a4e8-844">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2120"/>
+  </g>
+  <g id="img-1dd3a4e8-847">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2121"/>
+  </g>
+  <g id="img-1dd3a4e8-850">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2122"/>
+  </g>
+  <g id="img-1dd3a4e8-853">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2123"/>
+  </g>
+  <g id="img-1dd3a4e8-856">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2124"/>
+  </g>
+  <g id="img-1dd3a4e8-859">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2125"/>
+  </g>
+  <g id="img-1dd3a4e8-862">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2126"/>
+  </g>
+  <g id="img-1dd3a4e8-865">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2127"/>
+  </g>
+  <g id="img-1dd3a4e8-868">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2128"/>
+  </g>
+  <g id="img-1dd3a4e8-871">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2129"/>
+  </g>
+  <g id="img-1dd3a4e8-874">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2130"/>
+  </g>
+  <g id="img-1dd3a4e8-877">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2131"/>
+  </g>
+  <g id="img-1dd3a4e8-880">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2132"/>
+  </g>
+  <g id="img-1dd3a4e8-883">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2133"/>
+  </g>
+  <g id="img-1dd3a4e8-886">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2134"/>
+  </g>
+  <g id="img-1dd3a4e8-889">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2135"/>
+  </g>
+  <g id="img-1dd3a4e8-892">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2136"/>
+  </g>
+  <g id="img-1dd3a4e8-895">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2137"/>
+  </g>
+  <g id="img-1dd3a4e8-898">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2138"/>
+  </g>
+  <g id="img-1dd3a4e8-901">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2139"/>
+  </g>
+  <g id="img-1dd3a4e8-904">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2140"/>
+  </g>
+  <g id="img-1dd3a4e8-907">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2141"/>
+  </g>
+  <g id="img-1dd3a4e8-910">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2142"/>
+  </g>
+  <g id="img-1dd3a4e8-913">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2143"/>
+  </g>
+  <g id="img-1dd3a4e8-916">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2144"/>
+  </g>
+  <g id="img-1dd3a4e8-919">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2145"/>
+  </g>
+  <g id="img-1dd3a4e8-922">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2146"/>
+  </g>
+  <g id="img-1dd3a4e8-925">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2147"/>
+  </g>
+  <g id="img-1dd3a4e8-928">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2148"/>
+  </g>
+  <g id="img-1dd3a4e8-931">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2149"/>
+  </g>
+  <g id="img-1dd3a4e8-934">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2150"/>
+  </g>
+  <g id="img-1dd3a4e8-937">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2151"/>
+  </g>
+  <g id="img-1dd3a4e8-940">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2152"/>
+  </g>
+  <g id="img-1dd3a4e8-943">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2153"/>
+  </g>
+  <g id="img-1dd3a4e8-946">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2154"/>
+  </g>
+  <g id="img-1dd3a4e8-949">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2155"/>
+  </g>
+  <g id="img-1dd3a4e8-952">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2156"/>
+  </g>
+  <g id="img-1dd3a4e8-955">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2157"/>
+  </g>
+  <g id="img-1dd3a4e8-958">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2158"/>
+  </g>
+  <g id="img-1dd3a4e8-961">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2159"/>
+  </g>
+  <g id="img-1dd3a4e8-964">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2160"/>
+  </g>
+  <g id="img-1dd3a4e8-967">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2161"/>
+  </g>
+  <g id="img-1dd3a4e8-970">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2162"/>
+  </g>
+  <g id="img-1dd3a4e8-973">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2163"/>
+  </g>
+  <g id="img-1dd3a4e8-976">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2164"/>
+  </g>
+  <g id="img-1dd3a4e8-979">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2165"/>
+  </g>
+  <g id="img-1dd3a4e8-982">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2166"/>
+  </g>
+  <g id="img-1dd3a4e8-985">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2167"/>
+  </g>
+  <g id="img-1dd3a4e8-988">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2168"/>
+  </g>
+  <g id="img-1dd3a4e8-991">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2169"/>
+  </g>
+  <g id="img-1dd3a4e8-994">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2170"/>
+  </g>
+  <g id="img-1dd3a4e8-997">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2171"/>
+  </g>
+  <g id="img-1dd3a4e8-1000">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2172"/>
+  </g>
+  <g id="img-1dd3a4e8-1003">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2173"/>
+  </g>
+  <g id="img-1dd3a4e8-1006">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2174"/>
+  </g>
+  <g id="img-1dd3a4e8-1009">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2175"/>
+  </g>
+  <g id="img-1dd3a4e8-1012">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2176"/>
+  </g>
+  <g id="img-1dd3a4e8-1015">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2177"/>
+  </g>
+  <g id="img-1dd3a4e8-1018">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2178"/>
+  </g>
+  <g id="img-1dd3a4e8-1021">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2179"/>
+  </g>
+  <g id="img-1dd3a4e8-1024">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2180"/>
+  </g>
+  <g id="img-1dd3a4e8-1027">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2181"/>
+  </g>
+  <g id="img-1dd3a4e8-1030">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2182"/>
+  </g>
+  <g id="img-1dd3a4e8-1033">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2183"/>
+  </g>
+  <g id="img-1dd3a4e8-1036">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2184"/>
+  </g>
+  <g id="img-1dd3a4e8-1039">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2185"/>
+  </g>
+  <g id="img-1dd3a4e8-1042">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2186"/>
+  </g>
+  <g id="img-1dd3a4e8-1045">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2187"/>
+  </g>
+  <g id="img-1dd3a4e8-1048">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2188"/>
+  </g>
+  <g id="img-1dd3a4e8-1051">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2189"/>
+  </g>
+  <g id="img-1dd3a4e8-1054">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2190"/>
+  </g>
+  <g id="img-1dd3a4e8-1057">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2191"/>
+  </g>
+  <g id="img-1dd3a4e8-1060">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2192"/>
+  </g>
+  <g id="img-1dd3a4e8-1063">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2193"/>
+  </g>
+  <g id="img-1dd3a4e8-1066">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2194"/>
+  </g>
+  <g id="img-1dd3a4e8-1069">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2195"/>
+  </g>
+  <g id="img-1dd3a4e8-1072">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2196"/>
+  </g>
+  <g id="img-1dd3a4e8-1075">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2197"/>
+  </g>
+  <g id="img-1dd3a4e8-1078">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2198"/>
+  </g>
+  <g id="img-1dd3a4e8-1081">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2199"/>
+  </g>
+  <g id="img-1dd3a4e8-1084">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2200"/>
+  </g>
+  <g id="img-1dd3a4e8-1087">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2201"/>
+  </g>
+  <g id="img-1dd3a4e8-1090">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2202"/>
+  </g>
+  <g id="img-1dd3a4e8-1093">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2203"/>
+  </g>
+  <g id="img-1dd3a4e8-1096">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2204"/>
+  </g>
+  <g id="img-1dd3a4e8-1099">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2205"/>
+  </g>
+  <g id="img-1dd3a4e8-1102">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2206"/>
+  </g>
+  <g id="img-1dd3a4e8-1105">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2207"/>
+  </g>
+  <g id="img-1dd3a4e8-1108">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2208"/>
+  </g>
+  <g id="img-1dd3a4e8-1111">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2209"/>
+  </g>
+  <g id="img-1dd3a4e8-1114">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2210"/>
+  </g>
+  <g id="img-1dd3a4e8-1117">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2211"/>
+  </g>
+  <g id="img-1dd3a4e8-1120">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2212"/>
+  </g>
+  <g id="img-1dd3a4e8-1123">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2213"/>
+  </g>
+  <g id="img-1dd3a4e8-1126">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2214"/>
+  </g>
+  <g id="img-1dd3a4e8-1129">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2215"/>
+  </g>
+  <g id="img-1dd3a4e8-1132">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2216"/>
+  </g>
+  <g id="img-1dd3a4e8-1135">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2217"/>
+  </g>
+  <g id="img-1dd3a4e8-1138">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2218"/>
+  </g>
+  <g id="img-1dd3a4e8-1141">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2219"/>
+  </g>
+  <g id="img-1dd3a4e8-1144">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2220"/>
+  </g>
+  <g id="img-1dd3a4e8-1147">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2221"/>
+  </g>
+  <g id="img-1dd3a4e8-1150">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2222"/>
+  </g>
+  <g id="img-1dd3a4e8-1153">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2223"/>
+  </g>
+  <g id="img-1dd3a4e8-1156">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2224"/>
+  </g>
+  <g id="img-1dd3a4e8-1159">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2225"/>
+  </g>
+  <g id="img-1dd3a4e8-1162">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2226"/>
+  </g>
+  <g id="img-1dd3a4e8-1165">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2227"/>
+  </g>
+  <g id="img-1dd3a4e8-1168">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2228"/>
+  </g>
+  <g id="img-1dd3a4e8-1171">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2229"/>
+  </g>
+  <g id="img-1dd3a4e8-1174">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2230"/>
+  </g>
+  <g id="img-1dd3a4e8-1177">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2231"/>
+  </g>
+  <g id="img-1dd3a4e8-1180">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2232"/>
+  </g>
+  <g id="img-1dd3a4e8-1183">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2233"/>
+  </g>
+  <g id="img-1dd3a4e8-1186">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2234"/>
+  </g>
+  <g id="img-1dd3a4e8-1189">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2235"/>
+  </g>
+  <g id="img-1dd3a4e8-1192">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2236"/>
+  </g>
+  <g id="img-1dd3a4e8-1195">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2237"/>
+  </g>
+  <g id="img-1dd3a4e8-1198">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2238"/>
+  </g>
+  <g id="img-1dd3a4e8-1201">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2239"/>
+  </g>
+  <g id="img-1dd3a4e8-1204">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2240"/>
+  </g>
+  <g id="img-1dd3a4e8-1207">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2241"/>
+  </g>
+  <g id="img-1dd3a4e8-1210">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2242"/>
+  </g>
+  <g id="img-1dd3a4e8-1213">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2243"/>
+  </g>
+  <g id="img-1dd3a4e8-1216">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2244"/>
+  </g>
+  <g id="img-1dd3a4e8-1219">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2245"/>
+  </g>
+  <g id="img-1dd3a4e8-1222">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2246"/>
+  </g>
+  <g id="img-1dd3a4e8-1225">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2247"/>
+  </g>
+  <g id="img-1dd3a4e8-1228">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2248"/>
+  </g>
+  <g id="img-1dd3a4e8-1231">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2249"/>
+  </g>
+  <g id="img-1dd3a4e8-1234">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2250"/>
+  </g>
+  <g id="img-1dd3a4e8-1237">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2251"/>
+  </g>
+  <g id="img-1dd3a4e8-1240">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2252"/>
+  </g>
+  <g id="img-1dd3a4e8-1243">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2253"/>
+  </g>
+  <g id="img-1dd3a4e8-1246">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2254"/>
+  </g>
+  <g id="img-1dd3a4e8-1249">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2255"/>
+  </g>
+  <g id="img-1dd3a4e8-1252">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2256"/>
+  </g>
+  <g id="img-1dd3a4e8-1255">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2257"/>
+  </g>
+  <g id="img-1dd3a4e8-1258">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2258"/>
+  </g>
+  <g id="img-1dd3a4e8-1261">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2259"/>
+  </g>
+  <g id="img-1dd3a4e8-1264">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2260"/>
+  </g>
+  <g id="img-1dd3a4e8-1267">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2261"/>
+  </g>
+  <g id="img-1dd3a4e8-1270">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2262"/>
+  </g>
+  <g id="img-1dd3a4e8-1273">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2263"/>
+  </g>
+  <g id="img-1dd3a4e8-1276">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2264"/>
+  </g>
+  <g id="img-1dd3a4e8-1279">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2265"/>
+  </g>
+  <g id="img-1dd3a4e8-1282">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2266"/>
+  </g>
+  <g id="img-1dd3a4e8-1285">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2267"/>
+  </g>
+  <g id="img-1dd3a4e8-1288">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2268"/>
+  </g>
+  <g id="img-1dd3a4e8-1291">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2269"/>
+  </g>
+  <g id="img-1dd3a4e8-1294">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2270"/>
+  </g>
+  <g id="img-1dd3a4e8-1297">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2271"/>
+  </g>
+  <g id="img-1dd3a4e8-1300">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2272"/>
+  </g>
+  <g id="img-1dd3a4e8-1303">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2273"/>
+  </g>
+  <g id="img-1dd3a4e8-1306">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2274"/>
+  </g>
+  <g id="img-1dd3a4e8-1309">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2275"/>
+  </g>
+  <g id="img-1dd3a4e8-1312">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2276"/>
+  </g>
+  <g id="img-1dd3a4e8-1315">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2277"/>
+  </g>
+  <g id="img-1dd3a4e8-1318">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2278"/>
+  </g>
+  <g id="img-1dd3a4e8-1321">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2279"/>
+  </g>
+  <g id="img-1dd3a4e8-1324">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2280"/>
+  </g>
+  <g id="img-1dd3a4e8-1327">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2281"/>
+  </g>
+  <g id="img-1dd3a4e8-1330">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2282"/>
+  </g>
+  <g id="img-1dd3a4e8-1333">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2283"/>
+  </g>
+  <g id="img-1dd3a4e8-1336">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2284"/>
+  </g>
+  <g id="img-1dd3a4e8-1339">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2285"/>
+  </g>
+  <g id="img-1dd3a4e8-1342">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2286"/>
+  </g>
+  <g id="img-1dd3a4e8-1345">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2287"/>
+  </g>
+  <g id="img-1dd3a4e8-1348">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2288"/>
+  </g>
+  <g id="img-1dd3a4e8-1351">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2289"/>
+  </g>
+  <g id="img-1dd3a4e8-1354">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2290"/>
+  </g>
+  <g id="img-1dd3a4e8-1357">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2291"/>
+  </g>
+  <g id="img-1dd3a4e8-1360">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2292"/>
+  </g>
+  <g id="img-1dd3a4e8-1363">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2293"/>
+  </g>
+  <g id="img-1dd3a4e8-1366">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2294"/>
+  </g>
+  <g id="img-1dd3a4e8-1369">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2295"/>
+  </g>
+  <g id="img-1dd3a4e8-1372">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2296"/>
+  </g>
+  <g id="img-1dd3a4e8-1375">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2297"/>
+  </g>
+  <g id="img-1dd3a4e8-1378">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2298"/>
+  </g>
+  <g id="img-1dd3a4e8-1381">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2299"/>
+  </g>
+  <g id="img-1dd3a4e8-1384">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2300"/>
+  </g>
+  <g id="img-1dd3a4e8-1387">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2301"/>
+  </g>
+  <g id="img-1dd3a4e8-1390">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2302"/>
+  </g>
+  <g id="img-1dd3a4e8-1393">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2303"/>
+  </g>
+  <g id="img-1dd3a4e8-1396">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2304"/>
+  </g>
+  <g id="img-1dd3a4e8-1399">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2305"/>
+  </g>
+  <g id="img-1dd3a4e8-1402">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2306"/>
+  </g>
+  <g id="img-1dd3a4e8-1405">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2307"/>
+  </g>
+  <g id="img-1dd3a4e8-1408">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2308"/>
+  </g>
+  <g id="img-1dd3a4e8-1411">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2309"/>
+  </g>
+  <g id="img-1dd3a4e8-1414">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2310"/>
+  </g>
+  <g id="img-1dd3a4e8-1417">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2311"/>
+  </g>
+  <g id="img-1dd3a4e8-1420">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2312"/>
+  </g>
+  <g id="img-1dd3a4e8-1423">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2313"/>
+  </g>
+  <g id="img-1dd3a4e8-1426">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2314"/>
+  </g>
+  <g id="img-1dd3a4e8-1429">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2315"/>
+  </g>
+  <g id="img-1dd3a4e8-1432">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2316"/>
+  </g>
+  <g id="img-1dd3a4e8-1435">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2317"/>
+  </g>
+  <g id="img-1dd3a4e8-1438">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2318"/>
+  </g>
+  <g id="img-1dd3a4e8-1441">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2319"/>
+  </g>
+  <g id="img-1dd3a4e8-1444">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2320"/>
+  </g>
+  <g id="img-1dd3a4e8-1447">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2321"/>
+  </g>
+  <g id="img-1dd3a4e8-1450">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2322"/>
+  </g>
+  <g id="img-1dd3a4e8-1453">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2323"/>
+  </g>
+  <g id="img-1dd3a4e8-1456">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2324"/>
+  </g>
+  <g id="img-1dd3a4e8-1459">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2325"/>
+  </g>
+  <g id="img-1dd3a4e8-1462">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2326"/>
+  </g>
+  <g id="img-1dd3a4e8-1465">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2327"/>
+  </g>
+  <g id="img-1dd3a4e8-1468">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2328"/>
+  </g>
+  <g id="img-1dd3a4e8-1471">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2329"/>
+  </g>
+  <g id="img-1dd3a4e8-1474">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2330"/>
+  </g>
+  <g id="img-1dd3a4e8-1477">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2331"/>
+  </g>
+  <g id="img-1dd3a4e8-1480">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2332"/>
+  </g>
+  <g id="img-1dd3a4e8-1483">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2333"/>
+  </g>
+  <g id="img-1dd3a4e8-1486">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2334"/>
+  </g>
+  <g id="img-1dd3a4e8-1489">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2335"/>
+  </g>
+  <g id="img-1dd3a4e8-1492">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2336"/>
+  </g>
+  <g id="img-1dd3a4e8-1495">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2337"/>
+  </g>
+  <g id="img-1dd3a4e8-1498">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2338"/>
+  </g>
+  <g id="img-1dd3a4e8-1501">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2339"/>
+  </g>
+  <g id="img-1dd3a4e8-1504">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2340"/>
+  </g>
+  <g id="img-1dd3a4e8-1507">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2341"/>
+  </g>
+  <g id="img-1dd3a4e8-1510">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2342"/>
+  </g>
+  <g id="img-1dd3a4e8-1513">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2343"/>
+  </g>
+  <g id="img-1dd3a4e8-1516">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2344"/>
+  </g>
+  <g id="img-1dd3a4e8-1519">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2345"/>
+  </g>
+  <g id="img-1dd3a4e8-1522">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2346"/>
+  </g>
+  <g id="img-1dd3a4e8-1525">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2347"/>
+  </g>
+  <g id="img-1dd3a4e8-1528">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2348"/>
+  </g>
+  <g id="img-1dd3a4e8-1531">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2349"/>
+  </g>
+  <g id="img-1dd3a4e8-1534">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2350"/>
+  </g>
+  <g id="img-1dd3a4e8-1537">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2351"/>
+  </g>
+  <g id="img-1dd3a4e8-1540">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2352"/>
+  </g>
+  <g id="img-1dd3a4e8-1543">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2353"/>
+  </g>
+  <g id="img-1dd3a4e8-1546">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2354"/>
+  </g>
+  <g id="img-1dd3a4e8-1549">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2355"/>
+  </g>
+  <g id="img-1dd3a4e8-1552">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2356"/>
+  </g>
+  <g id="img-1dd3a4e8-1555">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2357"/>
+  </g>
+  <g id="img-1dd3a4e8-1558">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2358"/>
+  </g>
+  <g id="img-1dd3a4e8-1561">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2359"/>
+  </g>
+  <g id="img-1dd3a4e8-1564">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2360"/>
+  </g>
+  <g id="img-1dd3a4e8-1567">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2361"/>
+  </g>
+  <g id="img-1dd3a4e8-1570">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2362"/>
+  </g>
+  <g id="img-1dd3a4e8-1573">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2363"/>
+  </g>
+  <g id="img-1dd3a4e8-1576">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2364"/>
+  </g>
+  <g id="img-1dd3a4e8-1579">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2365"/>
+  </g>
+  <g id="img-1dd3a4e8-1582">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2366"/>
+  </g>
+  <g id="img-1dd3a4e8-1585">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2367"/>
+  </g>
+  <g id="img-1dd3a4e8-1588">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2368"/>
+  </g>
+  <g id="img-1dd3a4e8-1591">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2369"/>
+  </g>
+  <g id="img-1dd3a4e8-1594">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2370"/>
+  </g>
+  <g id="img-1dd3a4e8-1597">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2371"/>
+  </g>
+  <g id="img-1dd3a4e8-1600">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2372"/>
+  </g>
+  <g id="img-1dd3a4e8-1603">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2373"/>
+  </g>
+  <g id="img-1dd3a4e8-1606">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2374"/>
+  </g>
+  <g id="img-1dd3a4e8-1609">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2375"/>
+  </g>
+  <g id="img-1dd3a4e8-1612">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2376"/>
+  </g>
+  <g id="img-1dd3a4e8-1615">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2377"/>
+  </g>
+  <g id="img-1dd3a4e8-1618">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2378"/>
+  </g>
+  <g id="img-1dd3a4e8-1621">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2379"/>
+  </g>
+  <g id="img-1dd3a4e8-1624">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2380"/>
+  </g>
+  <g id="img-1dd3a4e8-1627">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2381"/>
+  </g>
+  <g id="img-1dd3a4e8-1630">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2382"/>
+  </g>
+  <g id="img-1dd3a4e8-1633">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2383"/>
+  </g>
+  <g id="img-1dd3a4e8-1636">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2384"/>
+  </g>
+  <g id="img-1dd3a4e8-1639">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2385"/>
+  </g>
+  <g id="img-1dd3a4e8-1642">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2386"/>
+  </g>
+  <g id="img-1dd3a4e8-1645">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2387"/>
+  </g>
+  <g id="img-1dd3a4e8-1648">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2388"/>
+  </g>
+  <g id="img-1dd3a4e8-1651">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2389"/>
+  </g>
+  <g id="img-1dd3a4e8-1654">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2390"/>
+  </g>
+  <g id="img-1dd3a4e8-1657">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2391"/>
+  </g>
+  <g id="img-1dd3a4e8-1660">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2392"/>
+  </g>
+  <g id="img-1dd3a4e8-1663">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2393"/>
+  </g>
+  <g id="img-1dd3a4e8-1666">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2394"/>
+  </g>
+  <g id="img-1dd3a4e8-1669">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2395"/>
+  </g>
+  <g id="img-1dd3a4e8-1672">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2396"/>
+  </g>
+  <g id="img-1dd3a4e8-1675">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2397"/>
+  </g>
+  <g id="img-1dd3a4e8-1678">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2398"/>
+  </g>
+  <g id="img-1dd3a4e8-1681">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2399"/>
+  </g>
+  <g id="img-1dd3a4e8-1684">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2400"/>
+  </g>
+  <g id="img-1dd3a4e8-1687">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2401"/>
+  </g>
+  <g id="img-1dd3a4e8-1690">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2402"/>
+  </g>
+  <g id="img-1dd3a4e8-1693">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2403"/>
+  </g>
+  <g id="img-1dd3a4e8-1696">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2404"/>
+  </g>
+  <g id="img-1dd3a4e8-1699">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2405"/>
+  </g>
+  <g id="img-1dd3a4e8-1702">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2406"/>
+  </g>
+  <g id="img-1dd3a4e8-1705">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2407"/>
+  </g>
+  <g id="img-1dd3a4e8-1708">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2408"/>
+  </g>
+  <g id="img-1dd3a4e8-1711">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2409"/>
+  </g>
+  <g id="img-1dd3a4e8-1714">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2410"/>
+  </g>
+  <g id="img-1dd3a4e8-1717">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2411"/>
+  </g>
+  <g id="img-1dd3a4e8-1720">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2412"/>
+  </g>
+  <g id="img-1dd3a4e8-1723">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2413"/>
+  </g>
+  <g id="img-1dd3a4e8-1726">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2414"/>
+  </g>
+  <g id="img-1dd3a4e8-1729">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2415"/>
+  </g>
+  <g id="img-1dd3a4e8-1732">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2416"/>
+  </g>
+  <g id="img-1dd3a4e8-1735">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2417"/>
+  </g>
+  <g id="img-1dd3a4e8-1738">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2418"/>
+  </g>
+  <g id="img-1dd3a4e8-1741">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2419"/>
+  </g>
+  <g id="img-1dd3a4e8-1744">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2420"/>
+  </g>
+  <g id="img-1dd3a4e8-1747">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2421"/>
+  </g>
+  <g id="img-1dd3a4e8-1750">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2422"/>
+  </g>
+  <g id="img-1dd3a4e8-1753">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2423"/>
+  </g>
+  <g id="img-1dd3a4e8-1756">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2424"/>
+  </g>
+  <g id="img-1dd3a4e8-1759">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2425"/>
+  </g>
+  <g id="img-1dd3a4e8-1762">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2426"/>
+  </g>
+  <g id="img-1dd3a4e8-1765">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2427"/>
+  </g>
+  <g id="img-1dd3a4e8-1768">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2428"/>
+  </g>
+  <g id="img-1dd3a4e8-1771">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2429"/>
+  </g>
+  <g id="img-1dd3a4e8-1774">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2430"/>
+  </g>
+  <g id="img-1dd3a4e8-1777">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2431"/>
+  </g>
+  <g id="img-1dd3a4e8-1780">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2432"/>
+  </g>
+  <g id="img-1dd3a4e8-1783">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2433"/>
+  </g>
+  <g id="img-1dd3a4e8-1786">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2434"/>
+  </g>
+  <g id="img-1dd3a4e8-1789">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2435"/>
+  </g>
+  <g id="img-1dd3a4e8-1792">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2436"/>
+  </g>
+  <g id="img-1dd3a4e8-1795">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2437"/>
+  </g>
+  <g id="img-1dd3a4e8-1798">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2438"/>
+  </g>
+  <g id="img-1dd3a4e8-1801">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2439"/>
+  </g>
+  <g id="img-1dd3a4e8-1804">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2440"/>
+  </g>
+  <g id="img-1dd3a4e8-1807">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2441"/>
+  </g>
+  <g id="img-1dd3a4e8-1810">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2442"/>
+  </g>
+  <g id="img-1dd3a4e8-1813">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2443"/>
+  </g>
+  <g id="img-1dd3a4e8-1816">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2444"/>
+  </g>
+  <g id="img-1dd3a4e8-1819">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2445"/>
+  </g>
+  <g id="img-1dd3a4e8-1822">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2446"/>
+  </g>
+  <g id="img-1dd3a4e8-1825">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2447"/>
+  </g>
+  <g id="img-1dd3a4e8-1828">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2448"/>
+  </g>
+  <g id="img-1dd3a4e8-1831">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2449"/>
+  </g>
+  <g id="img-1dd3a4e8-1834">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2450"/>
+  </g>
+  <g id="img-1dd3a4e8-1837">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2451"/>
+  </g>
+  <g id="img-1dd3a4e8-1840">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2452"/>
+  </g>
+  <g id="img-1dd3a4e8-1843">
+    <circle cx="0" cy="0" r="0.9" id="img-1dd3a4e8-2453"/>
+  </g>
+</defs>
+</svg>
