@@ -103,3 +103,16 @@ function getitems(knapsack::Array{Int64,1})
 
     return useditems
 end
+
+# Obliczenie lacznej wagi przedmiotow znajdujacych sie w plecaku
+function getweight(knapsack::Array{Int64,1}, items::Array{Item,1})
+    w = 0
+
+    for k = 1 : length(knapsack)
+        if knapsack[k] == 1
+            w += items[k].weight
+        end
+    end
+
+    return w
+end

@@ -1,5 +1,5 @@
 # Sprawdzenie czasu wykonywania algorytmu.
-# Szukanie roziazania problemu trwa co najwyzej 20 min
+# Szukanie rozwiazania problemu trwa co najwyzej 20 min
 function endoftime(starttime::Float64)
     timenow = time()
     timeint = round(timenow - starttime)
@@ -13,11 +13,11 @@ end
 
 # Drukowanie wszystkich rozwiazan z danej populacji. 
 # Wyswietlane sa: uzyte przedmioty, ich wartosc oraz laczna waga plecaka
-function printpopulation(knapsacks::Array{String,1}, itemarr::Array{Item,1})
+function printpopulation(knapsacks::Array{Array{Int64,1},1}, itemarr::Array{Item,1}, maxweight::Float64)
     println()
 
     for k = 1 : length(knapsacks)
-        println(knapsacks[k], "\t",  getitems(knapsacks[k]), "\t", getvalue(knapsacks[k], itemarr), "\t", getweight(knapsacks[k], itemarr))
+        println(knapsacks[k], "\t",  getitems(knapsacks[k]), "\t", getvalue(knapsacks[k], itemarr, maxweight), "\t", getweight(knapsacks[k], itemarr))
     end
 
     println()
