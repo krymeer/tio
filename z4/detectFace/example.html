@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Betaface API Test</title>
+        <style>
+            body {
+                margin: 10px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            #grid {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                grid-auto-flow: column;
+                justify-content: start;
+                grid-column-gap: 10px;
+                margin: 10px 0;
+            }
+
+            #img-box {
+                width: 300px;
+                height: 400px;
+                background: #f9d1cf;
+            }
+
+            #img-box > img {
+                display: block;
+                max-height: 100%;
+                max-width: 100%;
+            }
+
+            #logs {
+                font-family: monospace;
+                font-size: 12px;
+                padding: 5px;
+                background: #ccc;
+            }
+        </style>
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="js/detectFace.js"></script>
+        <script src="js/exampleInit.js"></script>
+        <script src="js/inputData.js"></script>
+    </head>
+    <body>
+        <input id="img-url" type="text" placeholder="Insert URL here">
+        <button id="start-btn">Detect a face</button>
+        <div id="grid">
+            <div id="img-box">
+                <img>
+            </div>
+            <pre id="logs"></pre>
+        </div>
+    </body>
+</html>
