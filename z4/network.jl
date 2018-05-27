@@ -43,6 +43,10 @@ function forwardprop(netlayers::Array{Array{Neuron,1}}, input::Array{Float64,1})
         signew = Float64[]
 
         for neuron in layer
+            neuron.csum     = 0
+            neuron.nsum     = 0
+            neuron.delta    = 0
+
             for k = 1 : length(neuron.weights)
                 neuron.csum += sigin[k] * neuron.weights[k]
             end
@@ -56,7 +60,7 @@ function forwardprop(netlayers::Array{Array{Neuron,1}}, input::Array{Float64,1})
 end
 
 function backwardprop(netlayers::Array{Array{Neuron,1}}, input::Array{Float64,1}, output::Array{Float64,1})
-    eta = 0.5
+    eta = 0.55
 
     for i = length(netlayers) : -1 : 1
         layer = netlayers[i]
