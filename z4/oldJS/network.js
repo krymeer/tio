@@ -70,7 +70,7 @@ function initialize(inputSignalsLength) {
 
             if (Math.random() < 0.5)
             {
-                neuron.bias *= -1;
+                //neuron.bias *= -1;
             }
 
             /**
@@ -82,7 +82,7 @@ function initialize(inputSignalsLength) {
 
                 if (Math.random() < 0.5)
                 {
-                    rand *= -1;
+                    //rand *= -1;
                 }
 
                 neuron.w.push(rand);
@@ -103,10 +103,9 @@ function initialize(inputSignalsLength) {
  * Propagacja w przod - obliczanie sum wyjsciowych dla kolejnych warstw
  */
 function forwardPropagation(network, input, getOutput = false) {
-    var numberOfLayers = network.layers.length;
     var signalsIn = input;
 
-    for (var i = 0; i < numberOfLayers; i++)
+    for (var i = 0; i < network.layers.length; i++)
     {
         var newSignalsin    = [];
         var layer           = network.layers[i];
@@ -122,7 +121,7 @@ function forwardPropagation(network, input, getOutput = false) {
             }
 
             neuron.normSum = math.eval(sigmoid, {x: neuron.sum});
-            newSignalsin.push(neuron.sum);
+            newSignalsin.push(neuron.normSum);
         }
 
         signalsIn = newSignalsin;
@@ -130,7 +129,7 @@ function forwardPropagation(network, input, getOutput = false) {
 
     if (getOutput)
     {
-        return network.layers[numberOfLayers-1][0].normSum;
+        return network.layers[network.layers.length-1][0].normSum;
     }
 }
 
@@ -142,9 +141,8 @@ function forwardPropagation(network, input, getOutput = false) {
 function backwardPropagation(network, input, output)
 {
     var eta             = 0.55;
-    var numberOfLayers  = network.layers.length;
 
-    for (var i = numberOfLayers-1; i >= 0; i--)
+    for (var i = network.layers.length-1; i >= 0; i--)
     {
         var layer = network.layers[i];
         //console.log('layer index: ', i)
@@ -154,9 +152,9 @@ function backwardPropagation(network, input, output)
             //console.log( j,  network.layerSizes[i] );
             var neuron = layer[j];
 
-            if (i === numberOfLayers-1)
+            if (i === network.layers.length-1)
             {
-                neuron.delta = Math.pow((output - network.layers[i][0].normSum), 2);
+                neuron.delta = /*Math.pow((*/output - network.layers[i][0].normSum//), 2);
             }
             else
             {
@@ -169,11 +167,11 @@ function backwardPropagation(network, input, output)
                  */
                 for (var k = 0; k < upLayerSize; k++)
                 {
-                    neuron.delta += upLayer[k].delta * neuron.normSum;
+                    neuron.delta += upLayer[k].delta * upLayer[k].w[j]// neuron.normSum;
                 }
-
-                neuron.delta *= math.eval(sigmoid, {x: neuron.sum});
             }
+
+            neuron.delta *= math.eval(sigmoid, {x: neuron.sum});
 
             /**
              * Modyfikacja wartosci wag w sieci
@@ -181,7 +179,7 @@ function backwardPropagation(network, input, output)
             for (var k = 0; k < neuron.w.length; k++)
             {
                 //console.log(neuron.w[k]);
-                neuron.w[k] += 2 * eta * neuron.delta
+                var cr = 2 * eta * neuron.delta;
 
                 if (i > 0)
                 {
@@ -192,6 +190,7 @@ function backwardPropagation(network, input, output)
                     neuron.w[k] *= input[k];
                 }
 
+                neuron.w[k] += cr;
                 //sconsole.log('--> ', neuron.w[k])
             }
 
@@ -208,6 +207,7 @@ window.onload = function() {
     node        = document.getElementById('logs');
     var input   = [[0, 0], [0, 1], [1, 0], [1, 1]];
     var output  = [0, 1, 1, 0];
+
     var network = initialize(input[0].length);
 
     for (var i = 0; i < 100; i++)
@@ -219,7 +219,7 @@ window.onload = function() {
         }
     }
 
-    var tIndex = 0;
+    var tIndex = 2;
 
     node.innerHTML += '<br>----<br>';
     node.innerHTML += '<br><strong>in:</strong> [';
@@ -234,8 +234,9 @@ window.onload = function() {
         }
     }
 
-    node.innerHTML += ']<br><strong>out:</strong> ' + output[tIndex];
-    node.innerHTML += '<br><span style="color: red; font-weight: bold">' 
+    node.innerHTML += ']<br><strong>out:</strong> ' + output[tIndex]
+                    + '<br><span style="color: red; font-weight: bold">'
+                    + 'computed: ' + 
                     + forwardPropagation(network, input[tIndex], true)
                     + '</span>';
 }
