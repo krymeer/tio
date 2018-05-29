@@ -16,6 +16,7 @@ function detectFace(url) {
         method: 'POST',
         data: JSON.stringify(requestData)
     }).done(function(responseData) {
+        console.log(responseData);
         processFaceTags(responseData, url);
     });
 }
