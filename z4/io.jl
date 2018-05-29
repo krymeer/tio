@@ -2,11 +2,20 @@ function readdata(filename::String, input::Array{Array{Float64,1},1}, output::Ar
     try
         open(filename) do f
             for line in eachline(f)
+                if length(search(line, r"^\s*#")) > 0 || length(search(line, r"[^\s]+")) == 0
+                    continue
+                end
+
                 io = split(line, r"\s*\|\s*")
 
                 try
                     push!(input, [parse(Int64, s) for s in split(io[1])])
-                    push!(output, [parse(Int64, s) for s in split(io[2])])
+
+                    if length(io) == 2
+                        push!(output, [parse(Int64, s) for s in split(io[2])])
+                    else
+                        println(STDERR, "\nWarning: there is no output data")
+                    end
                 catch
                     println(STDERR, "\nError: invalid data format\n")
                     quit()
@@ -27,7 +36,7 @@ function getnetwork(netlayers::Array{Array{Neuron,1}})
 
             for line in eachline(f)
                 if length(search(line, r"^\s*#")) > 0 || length(search(line, r"[^\s]+")) == 0
-                    continue    
+                    continue
                 end
 
                 data = split(line, r"\s*\|\s*")
@@ -54,7 +63,7 @@ function getnetwork(netlayers::Array{Array{Neuron,1}})
             println(STDERR, "Info: data loaded successfully")
         end
     catch (e)
-        println(STDERR, "\nError: $e\nError: your file contains corrupted data")
+        println(STDERR, "\nError: $e\nError: your file does not exist or contains corrupted data")
     end
 end
 

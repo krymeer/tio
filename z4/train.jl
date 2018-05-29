@@ -34,7 +34,7 @@ function main(args::Array{String,1})
             try
                 laysizes = [parse(Int64, l) for l in split(args[3], r"\s*,\s*")]
             catch (e)
-                println(STDERR, "\nError: $e\n")
+                println(STDERR, "\nError: $e")
             end
         end
 

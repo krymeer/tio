@@ -20,7 +20,12 @@ function main(args::Array{String,1})
 
     for l = 1 : length(input)
         forwardprop(netlayers, input[l])
-        println(STDERR, "\nInput: $(input[l])\nOutput: $(output[l])")
+        println(STDERR, "\nInput: $(input[l])")
+
+        if length(output) > 0
+            println(STDERR, "Output: $(output[l])")
+        end
+
         print("Calculated: ")
 
         for neuron in netlayers[length(netlayers)]
