@@ -24,8 +24,11 @@ function main(args::Array{String,1})
     readdata(args[2], input, output)
 
     netlayers   = Array{Neuron,1}[]
-    filename    = args[3]
-    getnetwork(netlayers, filename)
+
+    if length(args) >= 3
+        filename    = args[3]
+        getnetwork(netlayers, filename)
+    end
 
     if length(netlayers) == 0
         println(STDERR, "Notice: network does not exist. It will be build from scratch")
