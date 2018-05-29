@@ -2,8 +2,8 @@ include("network.jl")
 include("io.jl")
 
 function main(args::Array{String,1})
-    if length(args) != 1
-        println(STDERR, "\nUsage: test.jl input\"\n")
+    if length(args) != 2
+        println(STDERR, "\nUsage: test.jl input network\n")
         quit()
     end
 
@@ -11,7 +11,7 @@ function main(args::Array{String,1})
     output      = Array{Float64,1}[]
     readdata(args[1], input, output)
     netlayers   = Array{Neuron,1}[]
-    getnetwork(netlayers)
+    getnetwork(netlayers, args[2])
 
     if length(netlayers) == 0
         println(STDERR, "Error: network does not exist. Build it with the \"train.jl\" program")

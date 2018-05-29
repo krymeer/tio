@@ -1,3 +1,5 @@
+include("appendix.jl")
+
 function readdata(filename::String, input::Array{Array{Float64,1},1}, output::Array{Array{Float64,1},1})
     try
         open(filename) do f
@@ -29,9 +31,9 @@ function readdata(filename::String, input::Array{Array{Float64,1},1}, output::Ar
     end
 end
 
-function getnetwork(netlayers::Array{Array{Neuron,1}})
+function getnetwork(netlayers::Array{Array{Neuron,1}}, filename::String)
     try
-        open("network.txt") do f
+        open(filename) do f
             println(STDERR, "\nInfo: loading network data")
 
             for line in eachline(f)
@@ -68,9 +70,13 @@ function getnetwork(netlayers::Array{Array{Neuron,1}})
 end
 
 
-function writetofile(netlayers::Array{Array{Neuron,1}})
+function writetofile(netlayers::Array{Array{Neuron,1}}, filename::String)
     try
-        open("network.txt", "w") do f
+        if filename == ""
+            filename = string("network_", getstrdate(), ".txt")
+        end
+
+        open(filename, "w") do f
             write(f, "# Neuron syntax:\n# layer index | [array of weights] | calculated sum | normalized sum | delta")
         
             for i = 1 : length(netlayers)
@@ -82,7 +88,7 @@ function writetofile(netlayers::Array{Array{Neuron,1}})
                 end
             end
 
-            println(STDERR, "\nNetwork saved to file \"network.txt\"\n")
+            println(STDERR, "\nNetwork saved to file \"$filename\"\n")
         end
     catch (e)
         println(STDERR, "\nError: $e\n")

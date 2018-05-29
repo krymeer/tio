@@ -3,7 +3,7 @@ include("io.jl")
 
 function main(args::Array{String,1})
     if length(args) < 2
-        println(STDERR, "\nUsage: train.jl n input \"layer1, layer2, layern\"\n")
+        println(STDERR, "\nUsage: train.jl n input network \"layer1, layer2, layern\"\n")
         quit()
     end
 
@@ -23,16 +23,18 @@ function main(args::Array{String,1})
     output  = Array{Float64,1}[]
     readdata(args[2], input, output)
 
-    netlayers = Array{Neuron,1}[]
-    getnetwork(netlayers)
+    netlayers   = Array{Neuron,1}[]
+    filename    = args[3]
+    getnetwork(netlayers, filename)
 
     if length(netlayers) == 0
         println(STDERR, "Notice: network does not exist. It will be build from scratch")
+        filename = ""
         laysizes = []
         
-        if length(args) >= 3
+        if length(args) >= 4
             try
-                laysizes = [parse(Int64, l) for l in split(args[3], r"\s*,\s*")]
+                laysizes = [parse(Int64, l) for l in split(args[4], r"\s*,\s*")]
             catch (e)
                 println(STDERR, "\nError: $e")
             end
@@ -59,7 +61,7 @@ function main(args::Array{String,1})
         end
     end
 
-    writetofile(netlayers)
+    writetofile(netlayers, filename)
 end
 
 main(ARGS)
