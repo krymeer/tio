@@ -1,0 +1,46 @@
+# Face input for the neural network
+# Output: 1 - is male, 0 - is female
+
+# Sting
+# https://timedotcom.files.wordpress.com/2014/06/450345664.jpg
+0 1 1 1 0 1 0 0 0 0 1 | 1
+
+# Keanu Reeves
+# https://pmcvariety.files.wordpress.com/2017/02/keanu-reeves-siberia.jpg
+1 0 1 1 0 1 1 0 0 0 1 | 1
+
+# Bruce Willis
+# https://thenypost.files.wordpress.com/2018/01/bruce-willis.jpg
+0 1 1 1 0 1 1 0 0 0 1 | 1
+
+# Dave Grohl
+# https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/davegrohl-hero-463040582.jpg
+1 0 1 1 0 1 1 0 0 0 0 | 1
+
+# Paul McCartney
+# https://i.pinimg.com/736x/84/20/96/842096bbab862cee6189e82cec542750.jpg
+0 1 0 0 0 0 0 0 0 0 1 | 1
+
+# Keaton Henson
+# https://pbs.twimg.com/profile_images/559406195837247489/j5P4LRj9_400x400.jpeg
+1 0 1 1 0 1 1 0 0 0 0 | 1
+
+# Keira Knightley
+# https://cdn1.thr.com/sites/default/files/2018/01/4f50352b-fd78-40d6-b104-c928618ad8b0.png
+0 0 0 0 1 0 0 0 1 0 0 | 0
+
+# Julia Roberts
+# https://www.biography.com/.image/t_share/MTE1ODA0OTcxNzY4NjQ1MTMz/julia-roberts-9460157-1-402.jpg
+0 0 0 0 1 0 0 1 1 0 0 | 0
+
+# Helen Mirren
+# https://i2-prod.mirror.co.uk/incoming/article12282934.ece/ALTERNATES/s615/MAIN-Helen-Mirren.jpg
+0 0 0 0 1 0 0 1 1 1 0 | 0
+
+# Daisy Ridley
+# http://ksassets.timeincuk.net/wp/uploads/sites/46/2017/12/daisy-ridley-1920x1080.jpg
+0 0 0 0 1 0 0 1 1 0 0 | 0
+
+# Adele
+# https://assets.teenvogue.com/photos/572ba8c58dadd15d1189274e/master/pass/adele-beauty-evolution-9.jpg
+0 0 0 0 1 0 0 1 1 1 0 | 0 

@@ -1,0 +1,2 @@
+# Neuron syntax:
+# layer index | [array of weights] | calculated sum | normalized sum | delta
