@@ -14,7 +14,7 @@ function main(args::Array{String,1})
     getnetwork(netlayers, args[2])
 
     if length(netlayers) == 0
-        println(STDERR, "Error: network does not exist. Build it with the \"train.jl\" program")
+        println(STDERR, "Error: network does not exist. Build it with the \"train.jl\" program\n")
         quit()
     end
 

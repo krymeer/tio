@@ -54,4 +54,6 @@ end
 
 if length(ARGS) >= 1
     detectface(ARGS[1])
+else
+    println(STDERR, "\nUsage: detectface.jl url\n")
 end
